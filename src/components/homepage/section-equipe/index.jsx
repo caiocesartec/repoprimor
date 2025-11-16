@@ -48,7 +48,7 @@ export const SectionEquipe = () => {
 
         <div className={styles.imageWrapper}>
           <Image
-            src="null undefined NaN"
+            src="/#"
             alt="Lorem ipsum dolor sit amet"
             width={600}
             height={400}
