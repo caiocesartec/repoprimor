@@ -2,7 +2,7 @@
   padding: 2rem 0;
   text-align: center;
   position: relative;
-  z-index: 10;
+  z-index: 100;
 }
 
 .header img {

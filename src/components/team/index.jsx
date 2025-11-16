@@ -3,26 +3,33 @@ import styles from "./styles.module.css";
 export const TeamContent = async ({ profissionais }) => {
   return (
     <section className={styles.teamSection}>
-      <h1 className={styles.title}>profissionais</h1>
+      <h1 className={styles.title}>LOREM IPSUM</h1>
+
       <p className={styles.subtitle}>
-        Nosso time é composto por profissionais experientes e qualificados no
-        ramo jurídico, com equipes setorizadas e multidisciplinares dentro de
-        suas especializações - que irão entregar o resultado que você necessita.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+        malesuada lorem. Nulla facilisi. Integer aliquet, augue sed cursus
+        posuere, nunc velit aliquet dolor, eget tempus justo nunc vel lorem.
       </p>
 
       <div className={styles.cardGrid}>
         {profissionais.length === 0 ? (
           <p className={styles.noProfissionais}>
-            No momento não temos profissionais cadastrados.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         ) : (
           profissionais.map((prof) => (
             <div key={prof.nome} className={styles.card}>
               <div className={styles.cardHeader}>
-                <h2 className={styles.cardName}>{prof.nome}</h2>
+                <h2 className={styles.cardName}>Lorem ipsum dolor</h2>
               </div>
+
               <div className={styles.divisor} />
-              <p className={styles.cardText}>{prof.descricao}</p>
+
+              <p className={styles.cardText}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                condimentum, felis id hendrerit faucibus, urna velit maximus
+                arcu, vel gravida justo lacus eget erat.
+              </p>
             </div>
           ))
         )}

@@ -3,50 +3,37 @@ import styles from "./styles.module.css";
 import { FilialCard } from "@/components/filiais/filiais-card";
 import { CustomSwiper } from "@/components/common/swiper";
 
-export const SectionFiliais = async ({filiais}) => {
+export const SectionFiliais = async ({ filiais }) => {
+  const hasFiliais = filiais && filiais.length > 0;
 
-  if (!filiais || filiais.length === 0) {
-    return (
-      <section className={styles.filiaisSection}>
-        <Image
-          src="/home_filiais_background.png"
-          alt="Fundo da seção Filiais"
-          fill
-          className={styles.backgroundImage}
-          quality={100}
-          priority
+  const subtitleContent = hasFiliais ? (
+    <>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <br />
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat.
+    </>
+  ) : (
+    <>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</>
+  );
+
+  const slides = hasFiliais
+    ? filiais.map((filial) => (
+        <FilialCard
+          key={filial.nome}
+          nome={filial.nome}
+          endereco={filial.endereco}
+          imagem={filial.imagem?.url || "/imagem-filial.png"}
         />
-
-        <div className={styles.overlay}>
-          <div className={styles.content}>
-            <span className={styles.tag}>
-              FILIAIS
-              <div className={styles.divider}></div>
-            </span>
-            <h2 className={styles.title}>ONDE ESTAMOS LOCALIZADOS?</h2>
-            <p className={styles.subtitle}>
-              No momento não temos filiais cadastradas.
-            </p>
-          </div>
-        </div>
-      </section>
-    );
-  }
-
-  const slides = filiais.map((filial) => (
-    <FilialCard
-      key={filial.nome}
-      nome={filial.nome}
-      endereco={filial.endereco}
-      imagem={filial.imagem?.url || "/imagem-filial.png"} 
-    />
-  ));
+      ))
+    : null;
 
   return (
     <section className={styles.filiaisSection}>
       <Image
         src="/home_filiais_background.png"
-        alt="Fundo da seção Filiais"
+        alt="Lorem ipsum dolor sit amet"
         fill
         className={styles.backgroundImage}
         quality={100}
@@ -55,35 +42,32 @@ export const SectionFiliais = async ({filiais}) => {
 
       <div className={styles.overlay}>
         <div className={styles.content}>
+          {/* HEADER */}
           <span className={styles.tag}>
-            FILIAIS
+            LOREM IPSUM
             <div className={styles.divider}></div>
           </span>
 
-          <h2 className={styles.title}>ONDE ESTAMOS LOCALIZADOS?</h2>
+          <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET</h2>
 
-          <p className={styles.subtitle}>
-            A Melo Prates e Oliveira perto de você. <br />
-            Quer saber qual a filial mais perto de você?
-            <br />
-            Confira abaixo e entre em contato. Será um prazer te atender e
-            oferecer a solução exata que você precisa.
-          </p>
+          <p className={styles.subtitle}>{subtitleContent}</p>
 
-          <div className={styles.carouselWrapper}>
-            <CustomSwiper
-              slides={slides}
-              pagination
-              autoplay={true}
-              autoplayDelay={3500}
-              spaceBetween={24}
-              breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
-              className={styles.filiaisSwiper}
-            />
-          </div>
+          {hasFiliais && (
+            <div className={styles.carouselWrapper}>
+              <CustomSwiper
+                slides={slides}
+                pagination
+                autoplay={true}
+                autoplayDelay={3500}
+                spaceBetween={24}
+                breakpoints={{
+                  768: { slidesPerView: 2 },
+                  1024: { slidesPerView: 3 },
+                }}
+                className={styles.filiaisSwiper}
+              />
+            </div>
+          )}
         </div>
       </div>
     </section>

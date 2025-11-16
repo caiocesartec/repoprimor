@@ -5,29 +5,29 @@ import Link from "next/link";
 
 const cards = [
   {
-    icon: "/icones/iPrevidenciario.png",
-    title: "PREVIDENCIÁRIO - REGIME GERAL E PRÓPRIO",
-    text: "Com uma alta especialização no sistema previdenciário, atendemos os diversos tipos de ações em torno dos benefícios por incapacidade do cliente, como auxílio-acidente, auxílio-doença ou aposentadoria por invalidez.",
+    icon: "/icones/iPrevidenciario.pngg",
+    title: "LOREM IPSUM DOLOR SIT AMET",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Cras tincidunt, turpis vel mattis viverra, orci odio efficitur lorem, nec hendrerit est massa nec justo.",
   },
   {
-    icon: "/icones/iTrabalhista.png",
-    title: "TRABALHISTA",
-    text: "Lutamos em defesa de todos os direitos e prerrogativas que são necessárias e obrigatórias para o trabalhador, sejam eles individuais ou coletivos.",
+    icon: "/icones/iTrabalhista.pngg",
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id nibh a urna viverra ultricies vel eget arcu.",
   },
   {
-    icon: "/icones/iSindical.png",
-    title: "SINDICAL",
-    text: "Nossos serviços também estão aptos para atuação na da defesa de sindicatos em todos os âmbitos críticos que o cliente necessite, inclusive patrocinando ações e dissídios coletivos.",
+    icon: "/icones/iSindical.pngg",
+    title: "LOREM IPSUM DOLOR",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, lorem id commodo molestie, mi orci vehicula justo, a finibus velit nisl ac justo.",
   },
   {
-    icon: "/icones/iAdministrativo.png",
-    title: "ADMINISTRATIVO",
-    text: "No setor administrativo atuamos em defesa dos interesses do cidadão perante a Administração Pública, garantindo os seus direitos e bens que a sociedade o resguarda.",
+    icon: "/icones/iAdministrativo.pngg",
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac lorem ut urna porttitor dapibus. Sed sed tincidunt velit.",
   },
   {
-    icon: "/icones/iCivel.png",
-    title: "CÍVEL",
-    text: "Você pode contar também com nossos serviços em áreas de direito civil, sendo ela consultiva ou contenciosa.",
+    icon: "/icones/iCivel.pngg",
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pretium, libero non consequat feugiat, ipsum nulla dictum urna, vitae imperdiet metus tortor ut arcu.",
   },
 ];
 
@@ -52,15 +52,16 @@ export const SectionPracticeAreas = () => {
     <section className={styles.sectionPractice}>
       <div className={styles.contentWrapper}>
         <span className={styles.tag}>
-          ÁREAS DE ATUAÇÃO
+          LOREM IPSUM
           <div className={styles.divider}></div>
         </span>
-        <h2 className={styles.title}>NOSSAS ÁREAS DE ATUAÇÃO</h2>
+
+        <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET</h2>
+
         <p className={styles.subtitle}>
-          O escritório prima pela atuação{" "}
-          <strong>diferenciada e inovadora</strong>, buscando a satisfação dos
-          clientes, a excelência no trato profissional, e a valorização da
-          responsabilidade, da eficiência e confiança.
+          Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. 
+          Nullam cursus, lorem nec tincidunt mollis, arcu turpis bibendum quam, 
+          vitae fermentum odio lorem id nunc.
         </p>
 
         <CustomSwiper
@@ -75,7 +76,7 @@ export const SectionPracticeAreas = () => {
         />
 
         <Link href="/areas-de-atuacao">
-          <button className={styles.button}>SAIBA MAIS</button>
+          <button className={styles.button}>LOREM IPSUM</button>
         </Link>
       </div>
     </section>

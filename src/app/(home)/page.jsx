@@ -8,16 +8,18 @@ import { getFiliais } from "@/lib/filiais";
 import { getNovidades } from "@/lib/novidades";
 
 export const metadata = {
-  title: "Melo Prates e Oliveira",
-  description: "Advocacia",
+  title: "Delicia",
+  description: "delicia",
   author: "",
   icons: {
-    icon: "/logo-melopratesoliveira.png",
+    icon: "/",
   },
 };
+;
+
 
 const HomePage = async () => {
-  const novidades = await getNovidades();
+  const novidades = []
   const filiais = await getFiliais();
 
   return (

@@ -13,7 +13,8 @@ export const CareersContent = ({ vagas }) => {
 
   return (
     <section className={styles.careersSection}>
-      <h1 className={styles.title}>TRABALHE CONOSCO</h1>
+      <h1 className={styles.title}>LOREM IPSUM</h1>
+
       <p className={styles.subtitle}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nisl ac
         nulla maximus tincidunt in ac turpis. In malesuada blandit massa, quis
@@ -23,26 +24,26 @@ export const CareersContent = ({ vagas }) => {
       <div className={styles.contentWrapper}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/carreiras_background.jpg"
-            alt="Imagem com profissionais analisando documentos"
+            src="/lorem-image.jpg"
+            alt="Lorem ipsum dolor sit amet"
             fill
             className={styles.image}
           />
         </div>
 
         <div className={styles.textBlock}>
-          <h2 className={styles.vagasTitle}>Confira nossas vagas em aberto:</h2>
+          <h2 className={styles.vagasTitle}>Lorem ipsum dolor sit amet:</h2>
 
           {vagas.length === 0 ? (
             <p className={styles.noVagas}>
-              No momento não temos vagas disponíveis. Fique de olho em nossas
-              atualizações!
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           ) : (
             vagas.map((vaga, index) => {
               const responsabilidades = vaga.responsabilidades
                 ? vaga.responsabilidades.split("\n")
                 : [];
+
               const qualificacoes = vaga.qualificacoes
                 ? vaga.qualificacoes.split("\n")
                 : [];
@@ -53,7 +54,7 @@ export const CareersContent = ({ vagas }) => {
                     className={styles.vagaHeader}
                     onClick={() => toggleAccordion(index)}
                   >
-                    {vaga.tituloVaga}
+                    Lorem ipsum dolor sit amet
                     <span className={styles.icon}>
                       {activeIndex === index ? "▲" : "▼"}
                     </span>
@@ -62,30 +63,33 @@ export const CareersContent = ({ vagas }) => {
                   {activeIndex === index && (
                     <div className={styles.vagaContent}>
                       <div className={styles.vagaSection}>
-                        <h3>DESCRIÇÃO DA VAGA</h3>
-                        <p>{vaga.descricaoVaga}</p>
+                        <h3>LOREM IPSUM</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Donec dictum interdum ligula.
+                        </p>
                       </div>
 
                       <div className={styles.vagaSection}>
-                        <h3>RESPONSABILIDADES</h3>
+                        <h3>LOREM IPSUM</h3>
                         <ul>
                           {responsabilidades.map((item, i) => (
-                            <li key={i}>{item}</li>
+                            <li key={i}>Lorem ipsum dolor sit amet</li>
                           ))}
                         </ul>
                       </div>
 
                       <div className={styles.vagaSection}>
-                        <h3>QUALIFICAÇÕES</h3>
+                        <h3>LOREM IPSUM</h3>
                         <ul>
                           {qualificacoes.map((item, i) => (
-                            <li key={i}>{item}</li>
+                            <li key={i}>Lorem ipsum dolor sit amet</li>
                           ))}
                         </ul>
                       </div>
 
                       <button className={styles.ctaButton}>
-                        QUERO ME CANDIDATAR
+                        LOREM IPSUM
                       </button>
                     </div>
                   )}

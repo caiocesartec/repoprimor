@@ -1,13 +1,17 @@
 import { FiliaisContent } from "@/components/filiais/filiais-content";
 import { getFiliais } from "@/lib/filiais";
 
+
 export const metadata = {
-  title: "Melo Prates e Oliveira - Filiais",
-  description: "Advocacia",
+  title: "Delicia",
+  description: "delicia",
+  author: "",
   icons: {
-    icon: "/logo-melopratesoliveira.png",
+    icon: "/",
   },
 };
+;
+
 
 const FiliaisPage = async () => {
   const filiais = await getFiliais();

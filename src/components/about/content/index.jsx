@@ -4,17 +4,20 @@ import styles from "./styles.module.css";
 export const AboutContent = () => {
   return (
     <section className={styles.aboutSection}>
-      <h1 className={styles.title}>Sobre nós</h1>
+      <h1 className={styles.title}>Lorem ipsum</h1>
+
       <p className={styles.subtitle}>
-        Atuando de maneira eficiente e especializada, a Melo Prates e Oliveira já está há 36 anos no mercado,
-        entregando as melhores soluções de serviços jurídicos para todos os casos que chegam até nós.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+        sollicitudin mauris. Vestibulum ante ipsum primis in faucibus orci
+        luctus et ultrices posuere cubilia curae; Integer vel quam sit amet
+        turpis congue efficitur.
       </p>
 
       <div className={styles.contentWrapper}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/sobre_background.png"
-            alt="Imagem institucional"
+            src="/sobre_background.pngn"
+            alt="Lorem ipsum dolor sit amet"
             fill
             className={styles.image}
           />
@@ -22,32 +25,37 @@ export const AboutContent = () => {
 
         <div className={styles.textBlock}>
           <p>
-            Iniciamos nossa jornada em Santa Catarina e hoje o escritório conta com 13 advogados e sedes físicas em
-            outros estados do país (Alagoas, Ceará, Amazonas e Mato Grosso do Sul), além de atendimento por meios
-            telemáticos em quase todos os estados localizados no Brasil.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
+            urna quis elit facilisis vulputate. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae; Nunc nec
+            magna id ante convallis placerat non sed erat.
           </p>
 
           <p>
-            O escritório <strong>Melo Prates e Oliveira</strong> compreende que cada cliente é único, cada situação
-            é peculiar e exige um atendimento ético e altamente especializado. Nós gostamos de mudar vidas, sempre de
-            forma ética, comprometida e transparente, em prol de uma sociedade mais justa e igualitária.
+            <strong>Lorem ipsum dolor sit amet</strong> consectetur adipiscing
+            elit. Nulla dignissim, mi id dictum suscipit, lorem urna lobortis
+            diam, sit amet venenatis ipsum sapien in nibh. Mauris feugiat
+            bibendum dui, at cursus tortor feugiat vitae.
           </p>
 
           <p>
-            Sendo assim, temos o propósito de assegurar e entregar da maneira correta, resultados para todos que
-            confiam em nossos serviços, gerando qualidade e confiança, nos tornando o parceiro ideal para sua empresa.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            aliquam sagittis lacus, sit amet commodo turpis pulvinar nec. In
+            hac habitasse platea dictumst. Integer feugiat sem et lectus
+            suscipit tristique.
           </p>
 
           <p>
-            Aqui na <strong>Melo Prates e Oliveira</strong> compreendemos que cada cliente é único, cada situação
-            é peculiar e merece um cuidado e atenção especializada. Nós gostamos de mudar vidas, sempre de forma ética,
-            comprometida e transparente, em prol de uma sociedade mais justa e igualitária.
+            <strong>Lorem ipsum dolor sit amet</strong> consectetur adipiscing
+            elit. Vestibulum tincidunt felis vitae tellus varius, a sodales
+            turpis mattis. Donec id sapien et odio tincidunt sagittis id id
+            lectus.
           </p>
 
           <p>
-            Sendo assim, temos o propósito de assegurar e entregar da maneira correta, resultados para todos que
-            confiam em nossos serviços, gerando qualidade e confiança, nos tornando o parceiro ideal para
-            soluções das suas demandas jurídicas.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            vulputate leo metus, vitae condimentum turpis viverra eu. Aliquam
+            erat volutpat. Praesent sed porttitor ligula, vitae pharetra velit.
           </p>
         </div>
       </div>

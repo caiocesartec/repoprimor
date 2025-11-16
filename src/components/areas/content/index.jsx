@@ -4,18 +4,18 @@ import styles from "./styles.module.css"
 export const AreasContent = () => {
   return (
     <section className={styles.areasSection}>
-      <h1 className={styles.title}>Nossas áreas de atuação</h1>
+      <h1 className={styles.title}>Lorem ipsum dolor sit amet</h1>
       <p className={styles.subtitle}>
-        O escritório prima pela atuação diferenciada e inovadora, buscando a
-        satisfação dos clientes, a excelência no trato profissional, e a
-        valorização da responsabilidade, da eficiência e confiança.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel
+        commodo lorem. Cras tempor, velit et dictum hendrerit, nisi urna
+        facilisis turpis, in egestas leo velit a justo.
       </p>
 
       <div className={styles.contentWrapper}>
         <div className={styles.imageWrapper}>
           <Image
             src="/area-atuacao_background.jpg"
-            alt="Vista frontal de mulher de negócios elegante segurando prancheta com espaço para texto"
+            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             fill
             className={styles.image}
           />
@@ -23,26 +23,24 @@ export const AreasContent = () => {
 
         <div className={styles.textBlock}>
           <p>
-            Com anos no mercado jurídico, nosso escopo conta com uma abrangência
-            de atendimento em Previdenciário, Trabalhista, Sindical,
-            Administrativo, Cível, Consumidor, entre outros. Com uma experiência
-            sólida e vasta especialização, entregamos total qualidade e a melhor
-            solução para cada caso que é apresentado.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            ullamcorper, lacus id fringilla sodales, urna sapien vulputate
+            mauris, id ultricies augue metus non est. Mauris nec justo sed
+            purus molestie suscipit at sit amet arcu.
           </p>
 
           <p>
-            Em todos os âmbitos buscamos uma solução excepcional, contamos com
-            profissionais experientes, com o foco em uma entrega ágil, prática e
-            eficiente para cada vez mais irmos em busca de um país mais justo e
-            com menos desigualdade social.
+            Vivamus vitae arcu convallis, interdum libero eget, luctus nunc.
+            Nulla facilisi. Morbi porttitor, neque at accumsan finibus, risus
+            magna faucibus mi, sit amet commodo lorem lectus id arcu.
           </p>
 
           <p>
-            Através disso, cada área conta com um time especializado no assunto,
-            tornando assim a relação com o cliente única e personalizada,
-            garantindo eficácia e acima de tudo satisfação e confiança para quem
-            busca contar com nossos serviços. Conheça nossas áreas e verifique
-            qual a ideal a que melhor te atende no momento:
+            Suspendisse potenti. Integer dignissim, nulla sed gravida
+            ullamcorper, sapien elit congue risus, eget porta nisl lorem eu
+            nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Quisque quis nunc et lorem eleifend tempor. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit:
           </p>
         </div>
       </div>

@@ -5,24 +5,24 @@ import { Header } from "@/components/common/header";
 
 const branches = [
   {
-    image: "/sedes/florianopolis.png",
-    title: "SEDE",
-    location: "FLORIANÓPOLIS - SC",
+    image: "/banners/banner_principal.png",
+    title: "",
+    location: "",
   },
   {
-    image: "/sedes/fortaleza.png",
-    title: "ESCRITÓRIO",
-    location: "FORTALEZA - CE",
+    image: "/banners/banner_principal.png",
+    title: "",
+    location: "",
   },
   {
-    image: "/sedes/campo_grande.png",
-    title: "ESCRITÓRIO",
-    location: "CAMPO GRANDE - MS",
+    image: "/banners/banner_principal.png",
+    title: "",
+    location: "",
   },
   {
-    image: "/sedes/maceio.png",
-    title: "ESCRITÓRIO",
-    location: "MACEIÓ - AL",
+    image: "/banners/banner_principal.png",
+    title: "",
+    location: "",
   },
 ];
 
@@ -44,8 +44,8 @@ export const SectionBanner = () => {
           <br />
           {branch.location}
         </h1>
-        <p className={styles.subtitle}>SOLUÇÕES JURÍDICAS PERSONALIZADAS</p>
-        <Link
+        {/* <p className={styles.subtitle}>SOLUÇÕES JURÍDICAS PERSONALIZADAS</p> */}
+        {/* <Link
           href="https://wa.me/554896490073"
           target="_blank"
           className={styles.button}
@@ -56,7 +56,7 @@ export const SectionBanner = () => {
             alt="WhatsApp"
             className={styles.icon}
           />
-        </Link>
+        </Link> */}
       </div>
     </section>
   ));

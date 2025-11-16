@@ -2,13 +2,13 @@ import { AboutContent } from "@/components/about/content";
 import { MissionVisionValues } from "@/components/about/missao-valores-visao";
 
 export const metadata = {
-  title: "Melo Prates e Oliveira - Sobre nós",
-  description: "Advocacia",
+  title: "Delicia",
+  description: "delicia",
+  author: "",
   icons: {
-    icon: "/logo-melopratesoliveira.png",
+    icon: "/",
   },
 };
-
 
 const AboutPage = () => {
   return (

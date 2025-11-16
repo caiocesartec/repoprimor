@@ -1,16 +1,19 @@
 import { TeamContent } from "@/components/team";
-import { getProfissionais } from "@/lib/profissionais";
+
 
 export const metadata = {
-  title: "Melo Prates e Oliveira - Nosso Time",
-  description: "Advocacia",
+  title: "Delicia",
+  description: "delicia",
+  author: "",
   icons: {
-    icon: "/logo-melopratesoliveira.png",
+    icon: "/",
   },
 };
+;
+
 
 const TeamPage = async () => {
-  const profissionais = await getProfissionais();
+  const profissionais = []
   return (
     <section className="all-content">
       <main className="content-page">

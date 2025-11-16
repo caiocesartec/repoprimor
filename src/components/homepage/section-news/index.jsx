@@ -7,15 +7,18 @@ export const SectionNews = async ({ novidades }) => {
     <div key={index} className={styles.newsSlide}>
       <div className={styles.imageWrapper}>
         <Image
-          src={news.imagem.url}
-          alt={news.tituloNovidade}
+          src="/lorem-image.png"
+          alt="Lorem ipsum dolor sit amet"
           fill
           className={styles.image}
         />
       </div>
       <div className={styles.newsContent}>
-        <h3 className={styles.newsTitle}>{news.tituloNovidade}</h3>
-        <p className={styles.newsText}>{news.descricaoNovidade}</p>
+        <h3 className={styles.newsTitle}>Lorem ipsum dolor sit amet</h3>
+        <p className={styles.newsText}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat
+          est sed cursus commodo. Pellentesque habitant morbi tristique.
+        </p>
       </div>
     </div>
   ));
@@ -24,13 +27,15 @@ export const SectionNews = async ({ novidades }) => {
     <section className={styles.section_two}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <span className={styles.tag}>NOVIDADES</span>
+          <span className={styles.tag}>LOREM IPSUM</span>
           <div className={styles.divider}></div>
-          <h2 className={styles.title}>CONFIRA AS NOSSAS NOVIDADES.</h2>
+
+          <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET.</h2>
+
           <p className={styles.description}>
-            Nosso maior objetivo é poder disponibilizar uma experiência única,
-            entregar as melhores soluções jurídicas e que cada cliente tenha um
-            resultado completo com 100% de satisfação.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            dignissim lacus vitae mi dictum, quis consequat metus lacinia.
+            Integer id orci vehicula, blandit justo vitae, commodo risus.
           </p>
         </div>
 

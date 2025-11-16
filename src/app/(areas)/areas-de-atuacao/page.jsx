@@ -1,13 +1,17 @@
 import { PraticeAreasCard } from "@/components/areas/areas-cards";
 import { AreasContent } from "@/components/areas/content";
 
+
 export const metadata = {
-  title: "Melo Prates e Oliveira - Áreas de atuação",
-  description: "Advocacia",
+  title: "Delicia",
+  description: "delicia",
+  author: "",
   icons: {
-    icon: "/logo-melopratesoliveira.png",
+    icon: "/",
   },
 };
+;
+
 
 const AreasPage = () => {
   return (

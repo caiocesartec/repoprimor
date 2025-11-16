@@ -2,13 +2,17 @@ import { CareersContent } from "@/components/careers";
 import { getVagas } from "@/lib/vagas";
 
 
+
 export const metadata = {
-  title: "Melo Prates e Oliveira - Trabalhe Conosco",
-  description: "Advocacia",
+  title: "Delicia",
+  description: "delicia",
+  author: "",
   icons: {
-    icon: "/logo-melopratesoliveira.png",
+    icon: "/",
   },
 };
+;
+
 
   const CareersPage = async () => {
   const vagas = (await getVagas()) || [];

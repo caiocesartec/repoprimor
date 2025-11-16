@@ -8,8 +8,8 @@ export const SectionAbout = () => {
       <div className={styles.contentWrapper}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/colegas_analisando_grafico.jpg"
-            alt="colegas concentrados analisando graficos discutindo trabalho profissional"
+            src="/colegas_analisando_grafico.jpgg"
+            alt="imagem reservada"
             width={600}
             height={400}
             className={styles.image}
@@ -17,20 +17,22 @@ export const SectionAbout = () => {
         </div>
         <div className={styles.textContent}>
           <span className={styles.tag}>
-            SOBRE NÓS
+            LOREM IPSUM
             <div className={styles.divider}></div>
           </span>
+
           <h2 className={styles.aboutTitle}>
-            SOLUÇÕES JURÍDICAS CONFIÁVEIS PARA O MUNDO REAL
+            LOREM IPSUM DOLOR SIT AMET CONSECTETUR ADIPISCING
           </h2>
+
           <p className={styles.description}>
-            Atuando de maneira eficiente e especializada, a{" "}
-            <strong>Melo Prates e Oliveira</strong> já está há 36 anos no
-            mercado, entregando as melhores soluções de serviços jurídicos para
-            todos os casos que chegam até nós.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>Lorem Ipsum Dolor</strong> sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua.
           </p>
+
           <Link href="/sobre">
-            <button className={styles.button}>SAIBA MAIS</button>
+            <button className={styles.button}>LOREM IPSUM</button>
           </Link>
         </div>
       </div>

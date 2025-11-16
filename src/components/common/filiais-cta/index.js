@@ -7,8 +7,8 @@ export const FiliaisCallToAction = () => {
       <div className={styles.ctaContent}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/homem-tablet-na-mao-sorrindo.PNG"
-            alt="Profissional sorrindo com tablet"
+            src="/lorem-ipsum-image.png"
+            alt="Lorem ipsum dolor sit amet"
             width={200}
             height={400}
             priority
@@ -17,16 +17,18 @@ export const FiliaisCallToAction = () => {
 
         <div className={styles.textAndButton}>
           <div className={styles.textWrapper}>
-            <h2>PRECISA DE UMA SOLUÇÃO JURÍDICA?</h2>
+            <h2>LOREM IPSUM DOLOR SIT AMET?</h2>
+
             <p>
               <strong>
-                Entre em contato conosco e descubra como podemos te ajudar!
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </strong>
             </p>
-            <p>Estamos à disposição para lhe atender.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
 
-          <button className={styles.ctaButton}>SOLICITE UMA CONSULTA</button>
+          <button className={styles.ctaButton}>LOREM IPSUM</button>
         </div>
       </div>
     </section>

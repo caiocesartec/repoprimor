@@ -11,8 +11,8 @@ export const Header = ({ variant = "default" }) => {
     >
       <Link href="/">
         <Image
-          src="/logo-melopratesoliveira.png"
-          alt="Melo, Prates & Oliveira"
+          src="/logos/logo-delicia-branco-high.png"
+          alt="reservado"
           width={500}
           height={500}
           priority

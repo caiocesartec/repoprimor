@@ -4,19 +4,19 @@ import { CustomSwiper } from "@/components/common/swiper";
 
 const cardData = [
   {
-    icon: "/icones/iMissao.png",
-    title: "MISSÃO",
-    text: "Defender o cliente com grande estrutura técnica multidisciplinar e alta capacitação dos advogados e colaboradores, a fim de contribuir para o desenvolvimento do projeto de país instituído na Constituição Federal de diminuição da desigualdade social.",
+    icon: "/lorem-icon.png",
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Nulla facilisi. Integer vel sapien tincidunt, malesuada sapien nec, aliquet ipsum.",
   },
   {
-    icon: "/icones/iVisao.png",
-    title: "VISÃO",
-    text: "Atuar por meio de critérios técnicos e científicos, valorizando a simplicidade, a transparência e a acessibilidade, com a melhor tecnologia disponível no mercado.",
+    icon: "/lorem-icon.png",
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet urna a nulla facilisis congue. Pellentesque vitae arcu et neque hendrerit aliquet.",
   },
   {
-    icon: "/icones/iValores.png",
-    title: "VALORES",
-    text: "Ética e comprometimento na defesa intransigente de direitos, com responsabilidade social, criatividade, inovação e lealdade ao interesse do cliente.",
+    icon: "/lorem-icon.png",
+    title: "LOREM IPSUM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis, sem vel pellentesque faucibus, orci justo auctor augue, ac semper sem sapien non lorem.",
   },
 ];
 
@@ -25,7 +25,7 @@ export const MissionVisionValues = () => {
     <div className={styles.card} key={index}>
       <Image
         src={item.icon}
-        alt={`Ícone ${item.title}`}
+        alt={`Lorem ipsum`}
         width={64}
         height={64}
         className={styles.icon}
@@ -37,7 +37,7 @@ export const MissionVisionValues = () => {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>CONHEÇA NOSSA MISSÃO E VALORES</h2>
+      <h2 className={styles.title}>LOREM IPSUM DOLOR SIT AMET</h2>
 
       <CustomSwiper
         slides={cards}

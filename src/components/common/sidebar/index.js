@@ -13,7 +13,7 @@ export default function Sidebar() {
       <div className={styles.spacer} />
 
       <div className={styles.socialIcons}>
-      <Link href="https://www.linkedin.com/company/melo-prates-e-oliveira-advogados-associados" target="_blank" rel="noopener noreferrer">
+          <Link href="/#">
         <Image
           src="/icones/iLinkedin.png"
           alt="LinkedIn"
@@ -22,7 +22,7 @@ export default function Sidebar() {
         />
       </Link>
 
-      <Link href="https://www.instagram.com/mpoadvocacia/" target="_blank" rel="noopener noreferrer">
+          <Link href="/#">
         <Image
           src="/icones/iInstagramm.png"
           alt="Facebook"
@@ -31,7 +31,7 @@ export default function Sidebar() {
         />
       </Link>
 
-      <Link href="https://wa.me/554896490073" target="_blank" rel="noopener noreferrer">
+          <Link href="/#">
         <Image
           src="/icones/iWhats.png"
           alt="WhatsApp"

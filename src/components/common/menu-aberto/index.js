@@ -22,7 +22,7 @@ export const OpenMenu = () => {
       <button
         className={styles.menuButton}
         onClick={() => setIsOpen(!isOpen)}
-        aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+        aria-label={isOpen ? "Lorem ipsum" : "Lorem ipsum"}
       >
         {isOpen && isMobile ? (
           <IoClose size={40} color="#fff" />
@@ -37,10 +37,10 @@ export const OpenMenu = () => {
         </button>
 
         <div className={styles.logoWrapper}>
-          <Link href="/" onClick={() => setIsOpen(false)}>
+          <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
             <Image
-              src="/logo-melopratesoliveira.png"
-              alt="Logo"
+              src="/logo-loewm.pngg"
+              alt="Lorem ipsum"
               width={150}
               height={60}
             />
@@ -49,34 +49,34 @@ export const OpenMenu = () => {
 
         <ul className={styles.navList}>
           <li>
-            <Link href="/sobre" onClick={() => setIsOpen(false)}>
-              SOBRE NÓS
+            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+              LOREM IPSUM
             </Link>
           </li>
           <li>
-            <Link href="areas-de-atuacao" onClick={() => setIsOpen(false)}>
-              ÁREAS DE ATUAÇÃO
+            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+              LOREM IPSUM
             </Link>
           </li>
           <li>
-            <Link href="/filiais" onClick={() => setIsOpen(false)}>
-              FILIAIS
+            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+              LOREM IPSUM
             </Link>
           </li>
           <li>
-            <Link href="/profissionais" onClick={() => setIsOpen(false)}>
-              PROFISSIONAIS
+            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+              LOREM IPSUM
             </Link>
           </li>
           <li>
-            <Link href="/trabalhe-conosco" onClick={() => setIsOpen(false)}>
-              TRABALHE CONOSCO
+            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+              LOREM IPSUM
             </Link>
-          </li>          
+          </li>
         </ul>
 
         <div className={styles.socials}>
-          <Link href="/https://www.linkedin.com/company/melo-prates-e-oliveira-advogados-associados">
+          <Link href="/#">
             <Image
               src="/icones/iLinkedin.png"
               alt="LinkedIn"
@@ -84,15 +84,17 @@ export const OpenMenu = () => {
               height={48}
             />
           </Link>
-          <Link href="https://www.instagram.com/mpoadvocacia/">
+
+          <Link href="/#">
             <Image
               src="/icones/iInstagramm.png"
-              alt="Facebook"
+              alt="Instagram"
               width={38}
               height={38}
             />
           </Link>
-          <Link href="https://wa.me/554896490073">
+
+          <Link href="/#">
             <Image
               src="/icones/iWhats.png"
               alt="WhatsApp"

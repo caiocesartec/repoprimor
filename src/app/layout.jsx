@@ -3,7 +3,7 @@ import "./globals.css";
 import { FiliaisCallToAction } from "@/components/common/filiais-cta";
 import { Footer } from "@/components/common/footer";
 import Sidebar from "@/components/common/sidebar";
-import { WhatsAppButton } from "@/components/common/whatsapp-button";
+// import { WhatsAppButton } from "@/components/common/whatsapp-button";
 import { HeaderMobile } from "@/components/common/header-mobile";
 import { HeaderWrapper } from "@/components/common/header/wrapper";
 
@@ -23,13 +23,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Melo Prates e Oliveira",
-  description: "Advocacia",
+  title: "Delicia",
+  description: "delicia",
   author: "",
   icons: {
-    icon: "/logo-melopratesoliveira.png",
+    icon: "/.",
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -41,7 +42,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <FiliaisCallToAction />
         <Footer />
-        <WhatsAppButton />
+        {/* <WhatsAppButton /> */}
       </body>
     </html>
   );
