@@ -95,3 +95,9 @@
   transform: scale(1.1);
   filter: brightness(1.2);
 }
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

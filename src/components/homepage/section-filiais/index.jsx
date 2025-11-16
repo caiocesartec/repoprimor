@@ -7,11 +7,6 @@ export const SectionFiliais = async ({ filiais }) => {
   const hasFiliais = filiais && filiais.length > 0;
 
   const subtitleContent = hasFiliais ? (
-    // Acreditamos que a vida merece ser uma Delícia
-    // e estamos aqui para transformar qualquer
-    // hora do dia em um momento delicioso, do café
-    // da manhã ao preparo das receitas.
-
     <>
       Acreditamos que a vida merece ser uma Delícia e estamos aqui para
       transformar <br /> qualquer hora do dia, do café da manhã ao preparo das

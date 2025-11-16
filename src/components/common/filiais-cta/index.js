@@ -12,6 +12,7 @@ export const FiliaisCallToAction = () => {
             width={200}
             height={400}
             priority
+            quality={100}
           />
         </div>
 

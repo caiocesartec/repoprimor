@@ -1,48 +1,34 @@
 .section_two {
-    background-color: #faebc8;
-    padding: 1rem 2rem;
-    color: white;
-    margin-left: 4rem;
+  background-color: #faebc8;
+  padding: 4rem 2rem;
+  margin-left: 4rem;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .left {
-    text-align: center;
+  margin-bottom: 3rem;
 }
 
-.tag {
-    font-size: 16px;
-    color: #0f4196;
-    letter-spacing: 1px;
-    font-weight: 600;
+/* TÍTULOS + DIVIDER */
+.title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f4196;
+  font-family: FinalSix;
+  max-width: 380px;
+  margin: 0 auto 1rem;
 }
 
 .divider {
-    width: 108px;
-    height: 2px;
-    background-color: #0f4196;
-}
-
-.title {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0.5rem 0;
-    color: #0f4196;
-}
-
-.tag,
-.title,
-.newsTitle {
-    font-family: FinalSix;
-    font-weight: 800;
-    max-width: 377px;
-    margin: 0 auto;
-    margin-bottom: 24px;
-    margin-top: 15px;
+  width: 100%;
+  height: 2px;
+  background-color: #0f4196;
+  margin: 6px auto 0;
 }
 
 .description {
@@ -51,99 +37,62 @@
     color: #0f4196;
     line-height: 1.6;
 }
-
-.right {
-    flex: 1;
-    display: flex;
-    gap: 1rem;
-    max-width: 660px;
-
+.productsGrid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem 2rem;
+  place-items: center;
 }
 
-.newsSlide {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-    justify-content: flex-start;
+.productCard {
+  text-align: center;
+  max-width: 340px;
 }
 
 .imageWrapper {
-    position: relative;
-    width: 200px;
-    min-width: 200px;
-    height: 150px;
-    min-height: 150px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 180px;
+  margin: 0 auto 1rem;
 }
 
-.imageLeite {
-    display: block;
-    position: relative!important;
+.productImage {
+  object-fit: contain;
 }
 
-
-
-.newsContent {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.productTitle {
+  font-family: FinalSix;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0f4196;
+  margin-bottom: 0.5rem;
 }
 
-.newsTitle {
-    color: #d2a662;
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: 1px;
+.productText {
+  font-size: 14px;
+  color: #0f4196;
+  line-height: 1.5;
+  max-width: 260px;
+  margin: 0 auto;
 }
 
-.newsText {
-    font-size: 0.8rem;
-    color: #bdbdbd;
-    line-height: 1.4;
-}
+@media (max-width: 768px) {
+  .productsGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 
+  .section_two {
+    margin-left: 0;
+  }
 
-@media (max-width: 1024px) {
-    .container {
-        flex-direction: column;
-    }
+  .title {
+    font-size: 18px;
+  }
 
-    .section_two {
-        margin: 0;
-    }
-
-    .left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .title {
-        font-size: 18px;
-    }
-
-    .description {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .newsSwiper {
-        position: static;
-        margin-top: 1rem;
-        z-index: 1;
-    }
-
-    .newsSwiper :global(.swiper-pagination) {
-        position: relative;
-        margin-top: 1rem;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .newsSwiper :global(.swiper-pagination) {
-        justify-content: center;
-    }
+  .description {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
 }

@@ -49,18 +49,7 @@ export const SectionBanner = () => {
           {branch.text}
         </h1>
         <p className={styles.subtitle}>{branch.textTwo}</p>
-        {/* <Link
-          href="https://wa.me/554896490073"
-          target="_blank"
-          className={styles.button}
-        >
-          AGENDE UMA CONSULTA
-          <img
-            src="/icones/iWhats.png"
-            alt="WhatsApp"
-            className={styles.icon}
-          />
-        </Link> */}
+        
       </div>
     </section>
   ));

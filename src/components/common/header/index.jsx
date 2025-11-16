@@ -16,6 +16,7 @@ export const Header = ({ variant = "default" }) => {
           width={500}
           height={500}
           priority
+          quality={100}
         />
       </Link>
     </header>

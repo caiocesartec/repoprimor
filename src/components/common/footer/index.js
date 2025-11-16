@@ -71,19 +71,10 @@ export const Footer = () => {
               alt="Delícia"
               width={120}
               height={90}
+              quality={100}
             />
 
-            {/* <div className={styles.footerSocial}>
-            <Link href="#">
-              <Image src="/icones/iLinkedin.png" alt="LinkedIn" width={45} height={45} />
-            </Link>
-            <Link href="#">
-              <Image src="/icones/iInstagramm.png" alt="Instagram" width={38} height={38} />
-            </Link>
-            <Link href="#">
-              <Image src="/icones/iWhats.png" alt="WhatsApp" width={29} height={29} />
-            </Link>
-          </div> */}
+            
           </div>
         </div>
       </div>

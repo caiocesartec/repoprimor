@@ -43,6 +43,7 @@ export const OpenMenu = () => {
               alt="Logo delicia"
               width={226}
               height={138}
+              quality={100}
             />
           </Link>
         </div>
@@ -82,6 +83,7 @@ export const OpenMenu = () => {
               alt="LinkedIn"
               width={48}
               height={48}
+              quality={100}
             />
           </Link>
 
@@ -91,6 +93,7 @@ export const OpenMenu = () => {
               alt="Instagram"
               width={38}
               height={38}
+              quality={100}
             />
           </Link>
 
@@ -100,6 +103,7 @@ export const OpenMenu = () => {
               alt="WhatsApp"
               width={30}
               height={30}
+              quality={100}
             />
           </Link>
         </div>

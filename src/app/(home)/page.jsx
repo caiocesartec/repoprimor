@@ -28,7 +28,7 @@ const HomePage = async () => {
         <SectionBanner />
         <SectionNews novidades={novidades} />
         <SectionAbout />
-        <SectionPracticeAreas />
+        {/* <SectionPracticeAreas /> */}
         <SectionFiliais filiais={filiais} />
         <SectionEquipe />
       </main>

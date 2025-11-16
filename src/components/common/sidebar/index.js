@@ -19,6 +19,7 @@ export default function Sidebar() {
           alt="LinkedIn"
           width={48}
           height={48}
+          quality={100}
         />
       </Link>
 
@@ -28,6 +29,7 @@ export default function Sidebar() {
           alt="Facebook"
           width={38}
           height={38}
+          quality={100}
         />
       </Link>
 
@@ -37,6 +39,7 @@ export default function Sidebar() {
           alt="WhatsApp"
           width={30}
           height={30}
+          quality={100}
         />
       </Link>
     </div>

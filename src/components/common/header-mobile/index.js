@@ -15,6 +15,7 @@ export const HeaderMobile = () => {
           width={181}
           height={63}
           className={styles.logo}
+          quality={100}
         />
       </Link>
       <div className={styles.header_mobile_hamburguer}>

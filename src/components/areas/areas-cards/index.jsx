@@ -47,6 +47,7 @@ export const PraticeAreasCard = () => {
                   width={82}
                   height={82}
                   className={styles.icon}
+                  quality={100}
                 />
                 <h3 className={styles.cardTitle}>{card.title}</h3>
               </div>
@@ -59,6 +60,7 @@ export const PraticeAreasCard = () => {
               alt={`Lorem ipsum`}
               width={82}
               height={82}
+              quality={100}
               className={`${styles.icon} ${styles.desktopCard}`}
             />
 

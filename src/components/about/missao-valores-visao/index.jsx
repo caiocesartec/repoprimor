@@ -28,6 +28,7 @@ export const MissionVisionValues = () => {
         alt={`Lorem ipsum`}
         width={64}
         height={64}
+        quality={100}
         className={styles.icon}
       />
       <h3 className={styles.cardTitle}>{item.title}</h3>

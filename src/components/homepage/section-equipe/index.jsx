@@ -56,6 +56,7 @@ export const SectionEquipe = () => {
             width={600}
             height={400}
             className={styles.image}
+            quality={100}
           />
         </div>
       </div>

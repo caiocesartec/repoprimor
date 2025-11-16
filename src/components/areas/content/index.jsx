@@ -18,6 +18,7 @@ export const AreasContent = () => {
             alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             fill
             className={styles.image}
+            quality={100}
           />
         </div>
 

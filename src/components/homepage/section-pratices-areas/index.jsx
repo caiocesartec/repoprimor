@@ -40,6 +40,7 @@ export const SectionPracticeAreas = () => {
         width={100}
         height={80}
         className={styles.icon}
+        quality={100}
       />
       <div className={styles.textWrapper}>
         <h3 className={styles.cardTitle}>{card.title}</h3>

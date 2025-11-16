@@ -19,6 +19,7 @@ export const AboutContent = () => {
             alt="Delícia"
             fill
             className={styles.image}
+            quality={100}
           />
         </div>
 
