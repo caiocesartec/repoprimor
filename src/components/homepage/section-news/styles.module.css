@@ -99,14 +99,14 @@
 
 .fullBarWrapper {
   margin: 3rem 0;
-  border-top: 6px solid #0f4196;
-  border-bottom: 6px solid #0f4196;
+  border-top: 2px solid #0f4196;
+  border-bottom: 2px solid #0f4196;
   overflow: hidden;
   width: calc(100vw + 4rem);
   left: 50%;
   margin-left: calc(-50vw - 2rem);
   position: relative;
-  height: 120px;
+  height: 90px;
 }
 
 .fullBarTrack {
