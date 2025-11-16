@@ -6,14 +6,12 @@ export const SectionEquipe = () => {
   return (
     <section className={styles.equipeSection}>
       <div className={styles.quemFaz}>
-        <span className={styles.tag}>
-          VIRA DELÍCIA
-          <div className={styles.divider}></div>
-        </span>
-
-        <h2 className={styles.title}>
+        <h2 className={styles.tag}>
           VIEMOS PARA TRANSFORMAR MOMENTOS, RELAÇÕES E O ASTRAL.
+          <div className={styles.divider}></div>
         </h2>
+
+ 
 
         <p className={styles.description}>
           Nosso apetite insaciável por uma vida deliciosa transforma cada preparo
@@ -29,15 +27,12 @@ export const SectionEquipe = () => {
 
       <div className={styles.trabalheConosco}>
         <div className={styles.text}>
-          <span className={styles.tag}>
-            FORA DA CAIXA
-            <div className={styles.divider}></div>
-          </span>
-
-          <h3 className={styles.subtitle}>
+          <h3 className={styles.tag}>
             GENTE ABERTA A CURTIR O QUE EXISTE DE MELHOR.
+            <div className={styles.divider}></div>
           </h3>
 
+    
           <p className={styles.textDescription}>
             Falamos com pessoas que têm um apetite insaciável por delícias e um 
             gosto pela vida que inspira. Aqui, convidamos todos a fazer parte dessa 
