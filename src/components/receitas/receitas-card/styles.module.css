@@ -1,5 +1,5 @@
 .card {
-  background-color: #212739;
+  background-color: #faebc8;
   border-radius: 12px;
   overflow: hidden;
   text-align: left;
@@ -27,7 +27,7 @@
 .nome {
   font-family: "FinalSix";
   font-weight: 400;
-  color: #BC9C6B;
+  color: #0f4196;
   font-size: 16px;
   line-height: 32px;
   text-transform: uppercase;
@@ -58,7 +58,7 @@
 .divisor {
   border: none;
   height: 1px;
-  background-color: #BC9C6B;
+  background-color: #0f4196;
   margin: 1rem 0 0.75rem;
 }
 
@@ -101,3 +101,7 @@
   color: inherit;
   display: block;
 }
+
+
+
+
