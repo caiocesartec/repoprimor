@@ -39,10 +39,10 @@ export const OpenMenu = () => {
         <div className={styles.logoWrapper}>
           <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
             <Image
-              src="/logo-loewm.pngg"
+              src="/logos/delicia-branco-high.png"
               alt="Lorem ipsum"
-              width={150}
-              height={60}
+              width={226}
+              height={138}
             />
           </Link>
         </div>
