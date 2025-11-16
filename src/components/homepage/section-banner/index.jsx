@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const branches = [
   {
-    image: "/banners/banner_principal.png",
+    image: "/banners/banner_principal.jpg",
     title: "A cremosa que vira o jogo",
     text: "Delícia com creme de leite.",
     textTwo: "Pra deixar qualquer momento ainda mais gostoso.",
@@ -18,7 +18,7 @@ const branches = [
     textTwo: "Do fogão ao prato, tudo vira UOU!",
   },
   {
-    image: "/banners/banner_principal.png",
+    image: "/banners/banner_principal.jpg",
     title: "Vira sabor, vira Delícia",
     text: "Cremosidade que faz a diferença.",
     textTwo: "Porque nada tá tão bom que não possa ficar ainda melhor.",
@@ -51,7 +51,7 @@ export const SectionBanner = () => {
           {branch.text}
         </h1>
         <p className={styles.subtitle}>{branch.textTwo}</p>
-        
+
       </div>
     </section>
   ));
