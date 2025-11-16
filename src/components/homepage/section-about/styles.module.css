@@ -27,6 +27,7 @@
   height: 100%;
   object-fit: cover;
   border-top-right-radius: 80px;
+  margin-left: 24px;
 }
 
 .textContent {
@@ -93,6 +94,9 @@
   }
   .imageWrapper {
     padding-right: 24px;
+  }
+  .image {
+    margin-left: -10%!important;
   }
   .tag {
     display: flex;

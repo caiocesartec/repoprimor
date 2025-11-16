@@ -14,6 +14,7 @@ export const SectionAbout = () => {
             width={600}
             height={400}
             className={styles.image}
+            quality={100}
           />
         </div>
 
