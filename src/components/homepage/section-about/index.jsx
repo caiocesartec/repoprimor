@@ -20,13 +20,9 @@ export const SectionAbout = () => {
 
         <div className={styles.textContent}>
           <span className={styles.tag}>
-            A DELÍCIA QUE A VIDA PEDE
+            ESTAMOS AQUI PARA QUE A VIDA VIRE UMA DELÍCIA.
             <div className={styles.divider}></div>
           </span>
-
-          <h2 className={styles.aboutTitle}>
-            ESTAMOS AQUI PARA QUE A VIDA VIRE UMA DELÍCIA.
-          </h2>
 
           <p className={styles.description}>
             Nosso apetite insaciável por uma vida deliciosa transforma cada momento 
