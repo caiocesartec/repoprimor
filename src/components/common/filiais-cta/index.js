@@ -7,7 +7,7 @@ export const FiliaisCallToAction = () => {
       <div className={styles.ctaContent}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/lorem-ipsum-image.png"
+            src=""
             alt="Lorem ipsum dolor sit amet"
             width={200}
             height={400}
