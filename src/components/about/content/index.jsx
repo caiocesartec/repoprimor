@@ -4,20 +4,19 @@ import styles from "./styles.module.css";
 export const AboutContent = () => {
   return (
     <section className={styles.aboutSection}>
-      <h1 className={styles.title}>generic page 2</h1>
+      <h1 className={styles.title}>Delícia</h1>
 
       <p className={styles.subtitle}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-        sollicitudin mauris. Vestibulum ante ipsum primis in faucibus orci
-        luctus et ultrices posuere cubilia curae; Integer vel quam sit amet
-        turpis congue efficitur.
+        Delícia é a única margarina feita com creme de leite e chegou para virar o jogo. 
+        Acreditamos que a vida merece ser uma Delícia e estamos aqui para transformar 
+        qualquer hora do dia em um momento delicioso.
       </p>
 
       <div className={styles.contentWrapper}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/sobre_background.pngn"
-            alt="Lorem ipsum dolor sit amet"
+            src="/banners/Banner_Mochilinha.png"
+            alt="Delícia"
             fill
             className={styles.image}
           />
@@ -25,37 +24,36 @@ export const AboutContent = () => {
 
         <div className={styles.textBlock}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel
-            urna quis elit facilisis vulputate. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae; Nunc nec
-            magna id ante convallis placerat non sed erat.
+            Quando todo mundo falava que margarina é tudo igual a gente foi lá e UOU. 
+            Delícia é a única margarina com creme de leite. Quando todas falavam que 
+            eram cremosas a gente foi lá e PÁ. Delícia é a única cremoooosa de verdade 
+            porque tem o creme de leite que faz toda a diferença.
           </p>
 
           <p>
-            <strong>Lorem ipsum dolor sit amet</strong> consectetur adipiscing
-            elit. Nulla dignissim, mi id dictum suscipit, lorem urna lobortis
-            diam, sit amet venenatis ipsum sapien in nibh. Mauris feugiat
-            bibendum dui, at cursus tortor feugiat vitae.
+            Enquanto as margarinas estavam se limitando ao pão do café da manhã a gente 
+            foi lá e disse EI. Delícia com creme de leite é pra qualquer hora do dia. 
+            E enquanto a cozinha foi ficando com menos sabor e mais sem graça a gente 
+            foi lá e disse NÃO. Delícia com creme de leite tá aqui pra virar esse jogo.
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            aliquam sagittis lacus, sit amet commodo turpis pulvinar nec. In
-            hac habitasse platea dictumst. Integer feugiat sem et lectus
-            suscipit tristique.
+            A cada novo preparo nos perguntamos por que não pode ser delicioso. Estamos 
+            aqui para que a vida vire uma Delícia. Viemos para transformar os momentos 
+            as relações e o astral. Nosso apetite insaciável por uma vida deliciosa 
+            transforma cada receita em uma experiência que vale a pena saborear.
           </p>
 
           <p>
-            <strong>Lorem ipsum dolor sit amet</strong> consectetur adipiscing
-            elit. Vestibulum tincidunt felis vitae tellus varius, a sodales
-            turpis mattis. Donec id sapien et odio tincidunt sagittis id id
-            lectus.
+            Nosso amor declarado por comida gostosa faz com que a vida tenha oooooutro 
+            sabor. Nos deliciamos com boas risadas com café da manhã na hora do almoço 
+            com as culinárias daqui e do mundo e com ideias fora da caixa porque a 
+            Delícia da vida é estar aberto pra curtir o que existe de melhor.
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            vulputate leo metus, vitae condimentum turpis viverra eu. Aliquam
-            erat volutpat. Praesent sed porttitor ligula, vitae pharetra velit.
+            Afinal não há nada que esteja tão bom que não possa virar uma Delícia. 
+            Delícia a Delícia que a vida pede.
           </p>
         </div>
       </div>

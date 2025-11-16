@@ -73,7 +73,7 @@ export const SectionPracticeAreas = () => {
             className={styles.practiceSwiper}
           />
 
-          <Link href="/trabalhe-conosco">
+          <Link href="/produtos">
             <button className={styles.button}>Conheça nossos produtos</button>
           </Link>
         </div>
