@@ -2,6 +2,7 @@ import { CustomSwiper } from "@/components/common/swiper";
 import styles from "./styles.module.css";
 import Link from "next/link";
 import { Header } from "@/components/common/header";
+import Image from "next/image";
 
 const branches = [
   {
@@ -33,15 +34,16 @@ const branches = [
 
 export const SectionBanner = () => {
   const slides = branches.map((branch, index) => (
-    <section
-      key={index}
-      className={styles.banner}
-      style={{
-        backgroundImage: `url(${branch.image})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <section key={index} className={styles.banner}>
+      <Image
+        src={branch.image}
+        alt={branch.title}
+        fill
+        className={styles.bgImage}
+        quality={100}
+        priority
+      />
+
       <div className={styles.content}>
         <h1 className={styles.title}>
           {branch.title}
@@ -56,10 +58,10 @@ export const SectionBanner = () => {
 
   return (
     <>
-    <Header variant="absolute" />
-    <div className={styles.section_one}>
-      <CustomSwiper slides={slides} loop pagination autoplay={false} />
-    </div>
+      <Header variant="absolute" />
+      <div className={styles.section_one}>
+        <CustomSwiper slides={slides} loop pagination autoplay={false} />
+      </div>
     </>
   );
 };

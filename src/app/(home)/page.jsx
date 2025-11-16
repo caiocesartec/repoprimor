@@ -4,7 +4,7 @@ import { SectionEquipe } from "@/components/homepage/section-equipe";
 import { SectionFiliais } from "@/components/homepage/section-filiais";
 import { SectionNews } from "@/components/homepage/section-news";
 import { SectionPracticeAreas } from "@/components/homepage/section-pratices-areas";
-import { getFiliais } from "@/lib/filiais";
+import {getReceitas } from "@/lib/filiais";
 import { getNovidades } from "@/lib/novidades";
 
 export const metadata = {
@@ -20,7 +20,7 @@ export const metadata = {
 
 const HomePage = async () => {
   const novidades = []
-  const filiais = await getFiliais();
+  const receitas = await getReceitas();
 
   return (
     <section className="all-content">
@@ -29,7 +29,7 @@ const HomePage = async () => {
         <SectionNews novidades={novidades} />
         <SectionAbout />
         {/* <SectionPracticeAreas /> */}
-        <SectionFiliais filiais={filiais} />
+        <SectionFiliais filiais={receitas} />
         <SectionEquipe />
       </main>
     </section>

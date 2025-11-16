@@ -1,5 +1,5 @@
-import { FiliaisContent } from "@/components/filiais/filiais-content";
-import { getFiliais } from "@/lib/filiais";
+import { ReceitasContent } from "@/components/receitas/receitas-content";
+import { getReceitas } from "@/lib/filiais";
 
 
 export const metadata = {
@@ -13,16 +13,16 @@ export const metadata = {
 ;
 
 
-const FiliaisPage = async () => {
-  const filiais = await getFiliais();
+const ReceitasPage = async () => {
+  const receitas = await getReceitas();
 
   return (
     <section className="all-content">
       <main className="content-page">
-        <FiliaisContent filiais={filiais} />
+        <ReceitasContent receitas={receitas} />
       </main>
     </section>
   );
 };
 
-export default FiliaisPage;
+export default ReceitasPage;

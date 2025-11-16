@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.css";
+import { SectionTitle } from "@/components/common/section-title";
 
 export const SectionNews = () => {
   const cards = [
@@ -33,34 +34,35 @@ export const SectionNews = () => {
   return (
     <section className={styles.section_two}>
       <div className={styles.container}>
-        
-        <div className={styles.left}>
-          <h2 className={styles.title}>
-            A CREMOOOOSA DE VERDADE
-            <div className={styles.divider}></div>
-          </h2>
+        <SectionTitle width="380px">A CREMOOOOSA DE VERDADE</SectionTitle>
 
-          <p className={styles.description}>
-            Todas podem ser cremosas, mas só Delícia é cremoooosa DE VERDADE.
-            Somos a única margarina com creme de leite do mercado, que além de
-            ter uma textura ultra-mega-blaster cremosa, é mais fácil de espalhar
-            e muito mais indulgente para você.
-          </p>
+        <p className={styles.description}>
+          Todas podem ser cremosas, mas só Delícia é cremoooosa DE VERDADE.
+          Somos a única margarina com creme de leite do mercado, que além de ter
+          uma textura ultra-mega-blaster cremosa, é mais fácil de espalhar e
+          muito mais indulgente para você.
+        </p>
+
+        <div className={styles.fullBarWrapper}>
+          <Image
+            src="/genericas/barra.jpg"
+            alt="Barra decorativa"
+            fill
+            className={styles.fullBar}
+            priority
+          />
         </div>
 
+        <SectionTitle width="210px">Nossos produtos</SectionTitle>
+
         <div className={styles.productsGrid}>
-          {cards.map((card, index) => (
-            <Link
-              href={`/produtos/${card.slug}`}
-              key={index}
-              className={styles.cardLink}
-            >
+          {cards.map((card) => (
+            <Link href={`/produtos/${card.slug}`} key={card.slug}>
               <div className={styles.productCard}>
-                
                 <div className={styles.imageWrapper}>
                   <Image
                     src={card.icon}
-                    alt={`Produto ${card.title}`}
+                    alt={card.title}
                     fill
                     quality={100}
                     className={styles.productImage}
@@ -73,7 +75,6 @@ export const SectionNews = () => {
             </Link>
           ))}
         </div>
-
       </div>
     </section>
   );

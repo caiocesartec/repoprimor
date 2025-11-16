@@ -1,4 +1,4 @@
-export async function getFiliais() {
+export async function getReceitas() {
   await new Promise((r) => setTimeout(r, 200));
 
   return [

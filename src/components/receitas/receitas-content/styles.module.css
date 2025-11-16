@@ -1,6 +1,5 @@
-.filiaisSection {
+.receitasSection {
   padding: 4rem 4rem;
-  background-color: #151B2E;
   text-align: center;
   color: #ffffff;
 }
@@ -32,7 +31,7 @@
 
 
 @media (max-width: 1024px) {
-  .filiaisSection {
+  .receitasSection {
     padding: 6rem 2rem;
   }
 

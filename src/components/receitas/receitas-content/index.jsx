@@ -1,9 +1,9 @@
 import styles from "./styles.module.css";
-import { FilialCard } from "../filiais-card";
+import { ReceitasCard } from "../receitas-card";
 
-export const FiliaisContent = async ({ filiais }) => {
+export const ReceitasContent = async ({ receitas }) => {
   return (
-    <section className={styles.filiaisSection}>
+    <section className={styles.receitasSection}>
       <h1 className={styles.title}>RECEITAS PAGE</h1>
 
       <p className={styles.description}>
@@ -13,17 +13,17 @@ export const FiliaisContent = async ({ filiais }) => {
       </p>
 
       <div className={styles.cardsGrid}>
-        {filiais.length === 0 ? (
-          <p className={styles.noFiliais}>
+        {receitas.length === 0 ? (
+          <p className={styles.noReceitas}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         ) : (
-          filiais.map((filial) => (
-            <FilialCard
-              key={filial.nome}
+          receitas.map((receita) => (
+            <ReceitasCard
+              key={receita.nome}
               nome="Lorem ipsum dolor"
               endereco="Lorem ipsum dolor sit amet"
-              imagem={filial.imagem?.url}
+              imagem={receita.imagem?.url}
             />
           ))
         )}

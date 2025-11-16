@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
-import { FilialCard } from "@/components/filiais/filiais-card";
+import { ReceitasCard } from "@/components/receitas/receitas-card";
 import { CustomSwiper } from "@/components/common/swiper";
 
 export const SectionFiliais = async ({ filiais }) => {
@@ -18,7 +18,7 @@ export const SectionFiliais = async ({ filiais }) => {
 
   const slides = hasFiliais
     ? filiais.map((filial) => (
-        <FilialCard
+        <ReceitasCard
           key={filial.nome}
           nome={filial.nome}
           endereco={filial.endereco}
