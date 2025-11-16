@@ -4,7 +4,6 @@ export const SectionTitle = ({ children, width = "100%" }) => {
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.title}>{children}</h2>
-      <div className={styles.divider} style={{ width }}></div>
     </div>
   );
 };

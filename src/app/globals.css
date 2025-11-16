@@ -27,6 +27,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Magnolia";
+  src: url("/fonts/Magnolia Script.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+
 body {
   background-color: #faebc8;
 }

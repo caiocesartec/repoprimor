@@ -7,8 +7,7 @@ export const SectionEquipe = () => {
     <section className={styles.equipeSection}>
       <div className={styles.quemFaz}>
         <h2 className={styles.tag}>
-          VIEMOS PARA TRANSFORMAR MOMENTOS, RELAÇÕES E O ASTRAL.
-          <div className={styles.divider}></div>
+          Viemos para transformar momentos, relações e o astral.
         </h2>
 
  
@@ -28,7 +27,7 @@ export const SectionEquipe = () => {
       <div className={styles.trabalheConosco}>
         <div className={styles.text}>
           <h3 className={styles.tag}>
-            GENTE ABERTA A CURTIR O QUE EXISTE DE MELHOR.
+            Gente aberta a curtir o que existe de melhor.
             <div className={styles.divider}></div>
           </h3>
 

@@ -41,12 +41,11 @@
 }
 
 .tag {
-  font-size: 24px;
+  font-size: 64px;
   color: #053282;
   letter-spacing: 1px;
   font-weight: 800;
-  text-transform: uppercase;
-  font-family: "FinalSix";
+  font-family: "Magnolia";
   margin-bottom: 9px;
 }
 

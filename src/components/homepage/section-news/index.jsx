@@ -34,7 +34,7 @@ export const SectionNews = () => {
   return (
     <section className={styles.section_two}>
       <div className={styles.container}>
-        <SectionTitle width="380px">A CREMOOOOSA DE VERDADE</SectionTitle>
+        <SectionTitle width="380px">A cremosa de Verdade</SectionTitle>
 
         <p className={styles.description}>
           Todas podem ser cremosas, mas só Delícia é cremoooosa DE VERDADE.
@@ -80,7 +80,15 @@ export const SectionNews = () => {
           </div>
         </div>
 
-        <SectionTitle width="210px">NOSSOS PRODUTOS</SectionTitle>
+        <SectionTitle width="210px">Nossos Produtos</SectionTitle>
+       <p className={styles.description}>
+          Texturas que ajudam a significar
+          nossa origem, trazem um tom
+          de criatividade e um convite a
+          exploramos todas as possibilidades
+          que a margarina oferece na culinária.
+        </p>
+
 
         <div className={styles.productsGrid}>
           {cards.map((card) => (
