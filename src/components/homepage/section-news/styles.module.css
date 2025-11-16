@@ -8,17 +8,14 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
 }
 
 .left {
-    flex: 1.2;
+    text-align: center;
 }
 
 .tag {
-    font-size: 14px;
+    font-size: 16px;
     color: #0f4196;
     letter-spacing: 1px;
     font-weight: 600;
@@ -40,14 +37,19 @@
 .tag,
 .title,
 .newsTitle {
-    font-family: "FinalSix";
-    font-weight: 400;
+    font-family: FinalSix;
+    font-weight: 800;
+    max-width: 377px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    margin-top: 15px;
 }
 
 .description {
-    font-size: 14px;
+    font-size: 19px;
+    font-weight: 100;
     color: #0f4196;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .right {
@@ -76,8 +78,9 @@
     overflow: hidden;
 }
 
-.image {
-    object-fit: cover;
+.imageLeite {
+    display: block;
+    position: relative!important;
 }
 
 
@@ -115,6 +118,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
 
     .title {
