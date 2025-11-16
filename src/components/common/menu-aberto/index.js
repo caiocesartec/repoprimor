@@ -40,7 +40,7 @@ export const OpenMenu = () => {
           <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
             <Image
               src="/logos/delicia-branco-high.png"
-              alt="Lorem ipsum"
+              alt="Logo delicia"
               width={226}
               height={138}
             />
@@ -59,17 +59,17 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+            <Link href="/" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
           <li>
-            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+            <Link href="/sobre" onClick={() => setIsOpen(false)}>
               Nossa História
             </Link>
           </li>
           <li>
-            <Link href="/lorem-ipsum" onClick={() => setIsOpen(false)}>
+            <Link href="/" onClick={() => setIsOpen(false)}>
               Fale Conosco
             </Link>
           </li>
