@@ -15,7 +15,7 @@
   z-index: -1;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -29,15 +29,15 @@
 
   padding: 4rem 2rem;
   background: rgba(15, 20, 37, 0.85);
-}
+} */
 
 
-/* .overlay {
+.overlay {
   position: relative;
   z-index: 1;
   padding: 4rem 2rem;
   background: rgba(15, 20, 37, 0.85); 
-} */
+}
 
 .content {
   max-width: 1200px;
