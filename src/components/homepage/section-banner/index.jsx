@@ -5,7 +5,7 @@ import { BannerClient } from "./banner-client";
 const branches = [
   {
     image: "/banners/banner_principal.jpg",
-    imageMobile: "/banners/mobile/principal.png",
+    imageMobile: "/banners/mobile/Principal.png",
     title: "A cremosa que vira o jogo",
     text: "Delícia com creme de leite.",
     textTwo: "Pra deixar qualquer momento ainda mais gostoso.",
