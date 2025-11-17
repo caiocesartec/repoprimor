@@ -1,0 +1,64 @@
+.card {
+  background-color: #f5f082;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  height: 330px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.imageWrapper {
+  position: relative;
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.content {
+  width: 55%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+
+.titulo {
+  font-family: "FinalSix";
+  color: #0f4196;
+  margin-bottom: 12px;
+
+
+}
+
+.descricao {
+  font-family: "FinalSix";
+  font-weight: 400;
+  color: #0f4196;
+  font-size: 12px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.divisor {
+  border: none;
+  height: 1px;
+  background-color: #0f4196;
+  margin: 0.75rem 0;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

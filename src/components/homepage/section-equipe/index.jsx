@@ -1,6 +1,11 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
 import Link from "next/link";
+import { getDicas } from "@/lib/dicas";
+import { SectionDicas } from "../section-dicas";
+
+
+const dicas = await getDicas()
 
 export const SectionEquipe = () => {
   return (
@@ -19,10 +24,10 @@ export const SectionEquipe = () => {
           levamos leveza, criatividade e bom humor para tudo que fazemos.
         </p>
 
-        {/* <Link href="/profissionais">
-          <button className={styles.button}>CONHEÇA QUEM FAZ</button>
-        </Link> */}
+        
       </div>
+
+      <SectionDicas dicas={dicas} />
 
       <div className={styles.trabalheConosco}>
         <div className={styles.text}>
@@ -38,9 +43,7 @@ export const SectionEquipe = () => {
             onda deliciosa afinal, não há nada tão bom que não possa virar uma Delícia.
           </p>
 
-          {/* <Link href="/trabalhe-conosco">
-            <button className={styles.button}>TRABALHE CONOSCO</button>
-          </Link> */}
+         
         </div>
 
         <div className={styles.imageWrapper}>
