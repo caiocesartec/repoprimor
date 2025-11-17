@@ -11,7 +11,7 @@ export const Header = ({ variant = "default" }) => {
     >
       <Link href="/">
         <Image
-          src="/logos/delicia-branco-high.png"
+          src="/logos/logo.png"
           alt="reservado"
           width={500}
           height={500}

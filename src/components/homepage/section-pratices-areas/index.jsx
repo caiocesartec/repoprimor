@@ -5,29 +5,19 @@ import Link from "next/link";
 
 const cards = [
   {
-    icon: "/produtos/pote-creme-500.png",
-    title: "Delicia com creme de leite",
-    text: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
+    icon: "/produtos/primor_original.png",
+    title: "Primor Original",
+    text: "Seja no forno, preparando seu bolo preferido ou no toque final daquele cuscuz quentinho, a margarina Primor é a escolha certa para quem cozinha com amor. Tenha sempre em casa!",
   },
   {
-    icon: "/produtos/pote-creme-500.png",
-    title: "Delicia com creme de leite",
-    text: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
+    icon: "/produtos/primor_vegetal.png",
+    title: "Gordura Vegetal Primor",
+    text: "Seja no forno, preparando seu bolo preferido ou no toque final daquele cuscuz quentinho, a margarina Primor é a escolha certa para quem cozinha com amor. Tenha sempre em casa!",
   },
   {
-    icon: "/produtos/pote-ervas-500.png",
-    title: "Delícia Toque de Chef com Ervas Aromáticas",
-    text: "A margarina Delícia Toque de Chef com Ervas Aromáticas é feita com pedacinhos de ervas, de verdade, acredita? ",
-  },
-  {
-    icon: "/produtos/pote-alho-500.png",
-    title: "Delícia Toque de Chef com Alho e Cebola",
-    text: "A margarina Delícia Toque de Chef com Alho e Cebola é feita com pedacinhos de alho e de cebola e, de verdade, sabia? ",
-  },
-  {
-    icon: "/produtos/pote-supreme-500.png",
-    title: "Delicia Supreme",
-    text: "A Delícia Supreme é a margarina amanteigada feita com creme de leite..",
+    icon: "/produtos/primor_balde.png",
+    title: "Margarina Balde Primor",
+    text: "Seja no forno, preparando seu bolo preferido ou no toque final daquele cuscuz quentinho, a margarina Primor é a escolha certa para quem cozinha com amor. Tenha sempre em casa!",
   },
 ];
 

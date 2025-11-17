@@ -39,7 +39,7 @@ export const OpenMenu = () => {
         <div className={styles.logoWrapper}>
           <Link href="/" onClick={() => setIsOpen(false)}>
             <Image
-              src="/logos/delicia-branco-high.png"
+              src="/logos/logo.png"
               alt="Logo delicia"
               width={226}
               height={138}

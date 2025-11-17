@@ -29,7 +29,7 @@ export const SectionEquipe = () => {
 
         <div className={styles.imageWrapper}>
           <Image
-            src="/genericas/Chamadas_2.png"
+            src="/genericas/Chamadas_2.jpg"
             alt="Delícia - equipe"
             width={600}
             height={400}

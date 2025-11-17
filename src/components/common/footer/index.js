@@ -68,10 +68,10 @@ export const Footer = () => {
           <div className={styles.footerBrand}>
             <Link href="/">
               <Image
-                src="/logos/delicia-branco-high.png"
+                src="/logos/logo.png"
                 alt="Delícia"
-                width={120}
-                height={90}
+                width={221}
+                height={112}
                 quality={100}
               />
             </Link>

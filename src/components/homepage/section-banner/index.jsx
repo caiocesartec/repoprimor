@@ -12,7 +12,7 @@ const branches = [
     textTwo: "Pra deixar qualquer momento ainda mais gostoso.",
   },
   {
-    image: "/banners/Banner_Cozinhando.png",
+    image: "/banners/Banner_Cozinhando.jpg",
     title: "O sabor que surpreende",
     text: "A única cremosa de verdade.",
     textTwo: "Do fogão ao prato, tudo vira UOU!",
@@ -24,7 +24,7 @@ const branches = [
     textTwo: "Porque nada tá tão bom que não possa ficar ainda melhor.",
   },
   {
-    image: "/banners/Banner_Cozinhando.png",
+    image: "/banners/Banner_Cozinhando.jpg",
     title: "Mais sabor, mais cremosidade",
     text: "Pra cozinhar, espalhar e surpreender.",
     textTwo: "Transforme o simples em deliciosamente incrível.",
