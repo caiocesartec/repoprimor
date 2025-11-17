@@ -63,10 +63,6 @@ export const SectionPracticeAreas = () => {
             autoplay={true}
             className={styles.practiceSwiper}
           />
-
-          <Link href="/produtos">
-            <button className={styles.button}>Conheça nossos produtos</button>
-          </Link>
         </div>
       </section>
     );
