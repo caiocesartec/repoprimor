@@ -40,7 +40,7 @@ export const SectionEquipe = () => {
       </div>
 
       <SectionDicas dicas={dicas} />
-
+{/* 
       <div className={styles.quemFaz}>
         <h2 className={styles.tag}>
           Viemos para transformar momentos, relações e o astral
@@ -54,7 +54,7 @@ export const SectionEquipe = () => {
           merece ser uma Delícia e é por isso que pensamos fora da caixa e
           levamos leveza, criatividade e bom humor para tudo que fazemos.
         </p>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -56,11 +56,10 @@
 }
 
 .subtitle {
-  font-size: 1rem;
-  max-width: 800px;
+  font-size: 19px;
   margin: 0 auto 3rem;
   line-height: 1.6;
-  color: #FAEBC8;
+  color: #FFFFFF;
 }
 
 .cardsGrid {

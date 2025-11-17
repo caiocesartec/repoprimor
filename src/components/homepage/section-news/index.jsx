@@ -92,7 +92,7 @@ export const SectionNews = () => {
 
         <div className={styles.productsGrid}>
           {cards.map((card) => (
-            <Link href={`/produtos/${card.slug}`} key={card.slug}>
+            <Link className={styles.productCardLink} href={`/produtos/${card.slug}`} key={card.slug}>
               <div className={styles.productCard}>
                 <div className={styles.imageWrapper}>
                   <Image

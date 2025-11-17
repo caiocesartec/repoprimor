@@ -1,9 +1,9 @@
 .dicasSection {
   position: relative;
   width: 100%;
-  min-height: 85vh;
+  min-height: 61vh;
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 67px;
 }
 
 .backgroundImage {

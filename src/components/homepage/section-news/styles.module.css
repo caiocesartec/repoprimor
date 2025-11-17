@@ -43,16 +43,20 @@
     gap: 4rem 2rem;
     place-items: center;
 }
-
+.productsGrid .productCardLink {
+    width: 100%;
+    text-align: center;
+}
 .productCard {
     text-align: center;
-    max-width: 340px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .imageWrapper {
     position: relative;
-    width: 200px;
-    height: 180px;
+    width: 315px;
+    height: 315px;
     margin: 0 auto 1rem;
 }
 
