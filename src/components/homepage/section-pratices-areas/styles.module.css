@@ -11,7 +11,7 @@
 
 .tag {
   font-size: 0.85rem;
-  color: #053282;
+  color: #CE102C;
   letter-spacing: 1px;
   font-weight: 700;
   text-transform: uppercase;
@@ -21,7 +21,7 @@
 
 .divider {
   height: 2px;
-  background-color: #053282;
+  background-color: #CE102C;
   margin-top: 4px;
 }
 
@@ -30,7 +30,7 @@
   margin-top: 1rem;
   font-weight: 700;
   font-family: "Neulis";
-  color: #0f4196;
+  color: #CE102C;
 }
 
 .subtitle {
@@ -38,7 +38,7 @@
   max-width: 700px;
   font-size: 1rem;
   line-height: 1.6;
-  color: #0f4196
+  color: #CE102C
 }
 
 .grid {
@@ -68,7 +68,7 @@
 }
 
 .cardTitle {
-  color: #faebc8;
+  color: #F4E3C0;
   font-size: 14px;
   font-weight: 700;
   font-family: "Neulis";

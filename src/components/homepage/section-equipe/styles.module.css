@@ -8,7 +8,7 @@
 
 .tag {
   display: inline-block;
-  color: #053282;
+  color: #CE102C;
   font-family: "stash-md";
   font-size: 64px;
   position: relative;
@@ -21,11 +21,11 @@
 .trabalheConosco .tag {
   text-align: right;
 }
-  /* color: #053282; */
+  /* color: #CE102C; */
 
 .divider {
   height: 2px;
-  background-color: #053282;
+  background-color: #CE102C;
   margin-top: 4px;
 }
 
@@ -40,13 +40,13 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #0f4196;
+  color: #CE102C;
 }
 
 .description {
   font-size: 1rem;
   line-height: 1.6;
-  color: #0f4196;
+  color: #CE102C;
   margin-bottom: 2rem;
 }
 
@@ -86,13 +86,13 @@
   font-size: 24px;
   font-weight: 700;
   margin: 1rem 0;
-  color: #0f4196;
+  color: #CE102C;
 }
 
 .textDescription {
   font-size: 19px;
   line-height: 1.6;
-  color: #0f4196;
+  color: #CE102C;
   margin-bottom: 1.5rem;
   margin-left: 50px;
 }

@@ -1,14 +1,14 @@
 .aboutSection {
   padding: 5rem 4rem;
-  background: #FAEBC8;
-  color: #053282;
+  background: #F4E3C0;
+  color: #CE102C;
   text-align: center;
 }
 
 .heroPhrase {
   font-family: stash-md;
   font-size: 48px;
-  color: #053282;
+  color: #CE102C;
   margin-bottom: 1rem;
 }
 
@@ -24,7 +24,7 @@
   line-height: 44px;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #0f4196;
+  color: #CE102C;
 }
 
 .subtitle {
@@ -33,7 +33,7 @@
   line-height: 32px;
   margin: 0 auto 70px auto;
   max-width: 900px;
-  color: #0F4196;
+  color: #CE102C;
 }
 
 
@@ -67,7 +67,7 @@
   font-family: "Neulis";
   font-size: 18px;
   line-height: 1.7;
-  color: #053282;
+  color: #CE102C;
 }
 
 .textBlock strong {

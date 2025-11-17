@@ -1,7 +1,7 @@
 .careersSection {
   padding: 4rem 3rem;
-  color: #053282;
-  background: #FAEBC8;
+  color: #CE102C;
+  background: #F4E3C0;
 }
 
 .title {
@@ -9,13 +9,13 @@
   font-family: "stash-md";
   font-size: 42px;
   font-weight: 400;
-  color: #053282;
+  color: #CE102C;
   margin-bottom: 1rem;
 }
 
 .subtitle {
   font-family: "Neulis";
-  color: #0F4196;
+  color: #CE102C;
   max-width: 1200px;
   margin: 0 auto 70px auto;
   font-size: 20px;
@@ -57,12 +57,12 @@
 .vagasTitle {
   font-family: "stash-md";
   font-size: 32px;
-  color: #053282;
+  color: #CE102C;
   margin-bottom: 10px;
 }
 
 .vagaBox {
-  border: 1px solid #05328240;
+  border: 1px solid #CE102C40;
   border-radius: 10px;
   overflow: hidden;
   background: #FFFFFF;
@@ -73,7 +73,7 @@
   width: 100%;
   background-color: #F5F082;
   border: none;
-  color: #053282;
+  color: #CE102C;
   font-family: "stash-md";
   font-size: 20px;
   padding: 1.2rem;
@@ -90,7 +90,7 @@
 }
 
 .icon {
-  color: #053282;
+  color: #CE102C;
   font-size: 20px;
 }
 
@@ -104,7 +104,7 @@
   white-space: pre-wrap;
   font-family: "Neulis";
   font-size: 16px;
-  color: #0F4196;
+  color: #CE102C;
   line-height: 1.7;
 }
 
@@ -112,7 +112,7 @@
 .nutriContent {
   width: 100%;
   background: #FFFFFF;
-  border: 1px solid #0F419630;
+  border: 1px solid #CE102C30;
   padding: 1.4rem;
   border-radius: 12px;
 }
@@ -120,7 +120,7 @@
 .nutriPorcao {
   font-family: "Neulis";
   font-size: 13px;
-  color: #053282;
+  color: #CE102C;
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
@@ -142,11 +142,11 @@
 .nutriVD {
   font-family: "Neulis";
   font-size: 16px;
-  color: #053282;
+  color: #CE102C;
 }
 
 .nutriQuantidade {
-  color: #0F4196;
+  color: #CE102C;
 }
 
 

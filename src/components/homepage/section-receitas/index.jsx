@@ -8,12 +8,14 @@ export const SectionReceitas = async ({ receitas }) => {
 
   const subtitleContent = hasReceitas ? (
     <>
+    <p className={styles.paragrafoTitulo}>
     Não importa qual a receita: se for feita com Primor, dá certo. Ela tem
-a combinação perfeita entre textura e sabor que me dá confiança
-pra fazer qualquer receita: das mais tradicionais às que eu invento
-e dou o meu toque. Além disso, sei que posso contar com Primor
-pra cozinhar pra minha família e pro meu negócio, com a mesma
-qualidade de sempre.
+    a combinação perfeita entre textura e sabor que me dá confiança
+    pra fazer qualquer receita: das mais tradicionais às que eu invento
+    e dou o meu toque. Além disso, sei que posso contar com Primor
+    pra cozinhar pra minha família e pro meu negócio, com a mesma
+    qualidade de sempre.
+    </p>
     </>
   ) : (
     <>No momento não temos receitas cadastradas.</>

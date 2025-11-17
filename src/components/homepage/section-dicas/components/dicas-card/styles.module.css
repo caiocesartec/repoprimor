@@ -36,7 +36,7 @@
 
 .titulo {
   font-family: "Neulis";
-  color: #0f4196;
+  color: #CE102C;
   margin-bottom: 12px;
 
 
@@ -54,7 +54,7 @@
 .divisor {
   border: none;
   height: 1px;
-  background-color: #0f4196;
+  background-color: #CE102C;
   margin: 0.75rem 0;
 }
 
