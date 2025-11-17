@@ -1,36 +1,35 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
-import { ReceitasCard } from "@/components/receitas/receitas-card";
 import { CustomSwiper } from "@/components/common/swiper";
+import { ReceitasCard } from "./components/receitas-card";
 
-export const SectionFiliais = async ({ filiais }) => {
-  const hasFiliais = filiais && filiais.length > 0;
+export const SectionReceitas = async ({ receitas }) => {
+  const hasReceitas = receitas && receitas.length > 0;
 
-  const subtitleContent = hasFiliais ? (
+  const subtitleContent = hasReceitas ? (
     <>
       Acreditamos que a vida merece ser uma Delícia e estamos aqui para
       transformar <br /> qualquer hora do dia, do café da manhã ao preparo das
-      receitas
+      receitas.
     </>
   ) : (
-    <>No momento não temos filiais cadastradas.</>
+    <>No momento não temos receitas cadastradas.</>
   );
 
-  const slides = hasFiliais
-    ? filiais.map((filial) => (
+  const slides = hasReceitas
+    ? receitas.map((receita) => (
         <ReceitasCard
-          key={filial.nome}
-          nome={filial.nome}
-          endereco={filial.endereco}
-          imagem={filial.imagem?.url || "/imagem-filial.png"}
-          href="/"
+          key={receita.nome}
+          nome={receita.nome}
+          categoria={receita.categoria}
+          imagem={receita.imagem?.url || "/receitas/default.png"}
+          href={`/receitas/${receita.slug || ""}`}
         />
       ))
     : null;
 
-
   return (
-    <section className={styles.filiaisSection}>
+    <section className={styles.receitasSection}>
       <Image
         src="/banners/receitas.png"
         alt="Fundo receitas"
@@ -50,7 +49,7 @@ export const SectionFiliais = async ({ filiais }) => {
 
           <p className={styles.subtitle}>{subtitleContent}</p>
 
-          {hasFiliais && (
+          {hasReceitas && (
             <div className={styles.carouselWrapper}>
               <CustomSwiper
                 slides={slides}
@@ -63,7 +62,7 @@ export const SectionFiliais = async ({ filiais }) => {
                   768: { slidesPerView: 2 },
                   1024: { slidesPerView: 3 },
                 }}
-                className={styles.filiaisSwiper}
+                className={styles.receitasSwiper}
               />
             </div>
           )}

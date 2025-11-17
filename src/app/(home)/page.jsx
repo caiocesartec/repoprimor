@@ -1,7 +1,7 @@
 import { SectionAbout } from "@/components/homepage/section-about";
 import { SectionBanner } from "@/components/homepage/section-banner";
 import { SectionEquipe } from "@/components/homepage/section-equipe";
-import { SectionFiliais } from "@/components/homepage/section-filiais";
+import { SectionReceitas } from "@/components/homepage/section-receitas";
 import { SectionNews } from "@/components/homepage/section-news";
 import { SectionPracticeAreas } from "@/components/homepage/section-pratices-areas";
 import {getReceitas } from "@/lib/filiais";
@@ -29,7 +29,7 @@ const HomePage = async () => {
         <SectionNews novidades={novidades} />
         <SectionAbout />
         {/* <SectionPracticeAreas /> */}
-        <SectionFiliais filiais={receitas} />
+        <SectionReceitas receitas={receitas} />
         <SectionEquipe />
       </main>
     </section>

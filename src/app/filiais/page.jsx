@@ -1,4 +1,4 @@
-import { ReceitasContent } from "@/components/receitas/receitas-content";
+import { ReceitasContent } from "@/components/homepage/section-receitas/components/receitas-content";
 import { getReceitas } from "@/lib/filiais";
 
 

@@ -1,4 +1,4 @@
-.filiaisSection {
+.receitasSection {
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -14,8 +14,6 @@
   left: 0;
   z-index: -1;
 }
-
-
 
 .overlay {
   position: relative;
@@ -34,7 +32,6 @@
   width: 100%;
 }
 
-
 .tag {
   display: inline-block;
   color: #053282;
@@ -43,14 +40,13 @@
   position: relative;
   margin-bottom: 0.5rem;
 }
+
 .divider {
   width: 70px;
   height: 2px;
   background-color: #053282;
   margin: 4px auto 0;
 }
-
-/* #006efa */
 
 .title {
   font-family: "FinalSix";
@@ -75,12 +71,12 @@
   justify-items: center;
 }
 
-.filiaisSwiper {
+.receitasSwiper {
   position: static;
   margin-top: 1rem;
 }
 
-.filiaisSwiper :global(.swiper-pagination) {
+.receitasSwiper :global(.swiper-pagination) {
   position: relative;
   margin-top: 30px;
   display: flex;
@@ -95,6 +91,3 @@
     font-size: 12px;
   }
 }
-
-
-
