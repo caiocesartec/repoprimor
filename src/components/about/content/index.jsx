@@ -6,59 +6,29 @@ export const AboutContent = () => {
     <section className={styles.aboutSection}>
       
       <h1 className={styles.heroPhrase}>
-        A vida merece ser uma <span>Delícia</span>
+        Primor é o sabor que <span> Conta Histórias</span> no Norte e no Nordeste
       </h1>
 
       <p className={styles.subtitle}>
-        Delícia é a única margarina feita com creme de leite e chegou para virar o jogo.
-        Acreditamos que cada momento do dia merece sabor, leveza e aquele toque
-        que transforma o simples em especial.
+       Nosso sabor
+chama para perto
       </p>
 
       <div className={styles.contentWrapper}>
-        {/* <div className={styles.imageWrapper}>
-          <Image
-            src="/banners/Banner_Mochilinha.png"
-            alt="Delícia"
-            fill
-            className={styles.image}
-            quality={100}
-          />
-        </div> */}
-
         <div className={styles.textBlock}>
           <p>
-            Quando todo mundo dizia que margarina era tudo igual, a gente decidiu mudar o jogo.
-            Delícia é a única margarina com creme de leite de verdade. Enquanto outras se diziam
-            cremosas, nós fomos lá e mostramos o que é ser <strong>cremoooosa de verdade</strong>.
+          Onde tem família reunida, tem muito <strong>amor e Primor envolvidos</strong>. São mais de 60 anos levando qualidade e sabor, do café da manhã ao jantar.
           </p>
 
           <p>
-            Não somos só para o café da manhã. Delícia com creme de leite combina com qualquer
-            hora do dia – e é justamente isso que faz tudo ganhar mais sabor, mais brilho e mais
-            vontade de repetir.
-          </p>
-
-          <p>
-            Nossa missão é simples: transformar o cotidiano. A cada receita, perguntamos:
-            por que não fazer delicioso? Porque vida boa é vida saboreada. É viver leve,
-            viver gostoso, viver do nosso jeito.
-          </p>
-
-          <p>
-            Rimos alto, misturamos culturas, provamos novidades e abraçamos o inesperado.
-            A Delícia da vida é estar de braços abertos para o melhor que ela pode trazer.
-          </p>
-
-          <p>
-            Afinal, nada está tão bom que não possa ficar ainda mais Delícia.
+           E quando as mesas e cozinhas se preparam para a festa, a Primor também está lá. <strong>Celebrando culturas, valorizando tradições</strong>, sendo o sabor que conta das receitas que, mais que ingredientes, carregam a identidade de um povo.
           </p>
         </div>
       </div>
 
       <div className={styles.finalImageWrapper}>
         <Image
-            src="/banners/Banner_Sobre-a-Marca_Desktop_1366x500px.jpg"
+            src="/banners/Banner_Sobre.png"
 
           alt="Banner da Marca Delícia"
           fill

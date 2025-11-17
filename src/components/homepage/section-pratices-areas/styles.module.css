@@ -15,7 +15,7 @@
   letter-spacing: 1px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "FinalSix";
+  font-family: "Neulis";
   display: inline-block;
 }
 
@@ -29,7 +29,7 @@
   font-size: 24px;
   margin-top: 1rem;
   font-weight: 700;
-  font-family: "FinalSix";
+  font-family: "Neulis";
   color: #0f4196;
 }
 
@@ -71,7 +71,7 @@
   color: #faebc8;
   font-size: 14px;
   font-weight: 700;
-  font-family: "FinalSix";
+  font-family: "Neulis";
   margin-bottom: 0.5rem;
 }
 
@@ -79,7 +79,7 @@
   font-size: 14px;
   line-height: 1.5;
   color: #f5f082;
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-weight: 500;
 
 }
@@ -94,7 +94,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-family: "FinalSix";
+  font-family: "Neulis";
 }
 
 .button:hover {

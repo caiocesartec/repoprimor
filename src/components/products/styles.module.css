@@ -6,7 +6,7 @@
 
 .title {
   text-align: center;
-  font-family: "Magnolia";
+  font-family: "stash-md";
   font-size: 42px;
   font-weight: 400;
   color: #053282;
@@ -14,7 +14,7 @@
 }
 
 .subtitle {
-  font-family: "FinalSix";
+  font-family: "Neulis";
   color: #0F4196;
   max-width: 1200px;
   margin: 0 auto 70px auto;
@@ -55,7 +55,7 @@
 }
 
 .vagasTitle {
-  font-family: "Magnolia";
+  font-family: "stash-md";
   font-size: 32px;
   color: #053282;
   margin-bottom: 10px;
@@ -74,7 +74,7 @@
   background-color: #F5F082;
   border: none;
   color: #053282;
-  font-family: "Magnolia";
+  font-family: "stash-md";
   font-size: 20px;
   padding: 1.2rem;
   display: flex;
@@ -102,7 +102,7 @@
 
 .preBlock {
   white-space: pre-wrap;
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-size: 16px;
   color: #0F4196;
   line-height: 1.7;
@@ -118,7 +118,7 @@
 }
 
 .nutriPorcao {
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-size: 13px;
   color: #053282;
   font-weight: 600;
@@ -140,7 +140,7 @@
 .nutriTitulo,
 .nutriQuantidade,
 .nutriVD {
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-size: 16px;
   color: #053282;
 }
@@ -158,7 +158,7 @@
 
 .nutriObs {
   margin-top: 1.8rem;
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-size: 13px;
   color: #8a8a8a;
   text-align: center;

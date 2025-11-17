@@ -6,7 +6,7 @@
 }
 
 .heroPhrase {
-  font-family: "Magnolia";
+  font-family: stash-md;
   font-size: 48px;
   color: #053282;
   margin-bottom: 1rem;
@@ -14,14 +14,14 @@
 
 .heroPhrase span {
   color: #facd0a;
-  font-family: "Magnolia";
+  font-family: stash-md;
 
 }
 
 
 
 .title {
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-size: 34px;
   font-weight: 400;
   line-height: 44px;
@@ -31,7 +31,7 @@
 }
 
 .subtitle {
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-size: 20px;
   line-height: 32px;
   margin: 0 auto 70px auto;
@@ -68,7 +68,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  font-family: "FinalSix";
+  font-family: "Neulis";
   font-size: 18px;
   line-height: 1.7;
   color: #053282;

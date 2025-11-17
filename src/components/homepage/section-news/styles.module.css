@@ -19,7 +19,7 @@
     font-size: 34px;
     font-weight: 800;
     color: #0f4196;
-    font-family: FinalSix;
+    font-family: "Neulis";
     max-width: 380px;
     margin: 0 auto 1rem;
 }
@@ -66,7 +66,7 @@
 }
 
 .productTitle {
-    font-family: Magnolia;
+    font-family: stash-md;
     font-size: 33px;
     font-weight: 800;
     color: #0f4196;
@@ -86,7 +86,7 @@
         margin-left: 0px;
     }
     .productTitle {
-        font-family: Magnolia;
+        font-family: stash-md;
         font-size: 23px;
         font-weight: 800;
         color: #0f4196;

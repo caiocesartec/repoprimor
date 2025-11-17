@@ -45,7 +45,7 @@
   color: #053282;
   letter-spacing: 1px;
   font-weight: 800;
-  font-family: "Magnolia";
+  font-family: stash-md;
   margin-bottom: 9px;
   line-height: 75px;
 }
@@ -76,7 +76,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: fit-content;
-  font-family: "FinalSix";
+  font-family: "Neulis";
 }
 
 .button:hover {
