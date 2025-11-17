@@ -18,12 +18,14 @@ export const SectionEquipe = () => {
 
         <div className={styles.text}>
           <h3 className={styles.tag}>
-            Gente aberta a curtir o que existe de melhor.
+            Dá um quentinho no coração.
           </h3>
           <p className={styles.textDescription}>
-            Falamos com pessoas que têm um apetite insaciável por delícias e um
-            gosto pela vida que inspira. Aqui, convidamos todos a fazer parte dessa
-            onda deliciosa afinal, não há nada tão bom que não possa virar uma Delícia.
+            Um elo de conexão entre mim e a minha história, Primor é
+a marca que sempre esteve presente na casa da família e
+das pessoas mais próximas de mim. Ela me dá uma nostalgia
+gostosa e aquece o meu coração saber que carrego comigo
+as tradições de quem eu amo, mesmo que de um jeito novo
           </p>
         </div>
 

@@ -8,9 +8,12 @@ export const SectionReceitas = async ({ receitas }) => {
 
   const subtitleContent = hasReceitas ? (
     <>
-      Acreditamos que a vida merece ser uma Delícia e estamos aqui para
-      transformar <br /> qualquer hora do dia, do café da manhã ao preparo das
-      receitas.
+    Não importa qual a receita: se for feita com Primor, dá certo. Ela tem
+a combinação perfeita entre textura e sabor que me dá confiança
+pra fazer qualquer receita: das mais tradicionais às que eu invento
+e dou o meu toque. Além disso, sei que posso contar com Primor
+pra cozinhar pra minha família e pro meu negócio, com a mesma
+qualidade de sempre.
     </>
   ) : (
     <>No momento não temos receitas cadastradas.</>
@@ -31,7 +34,7 @@ export const SectionReceitas = async ({ receitas }) => {
   return (
     <section className={styles.receitasSection}>
       <Image
-        src="/banners/receitas.png"
+        src="/banners/Banner_Cozinhando.jpg"
         alt="Fundo receitas"
         fill
         className={styles.backgroundImage}

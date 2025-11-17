@@ -28,13 +28,13 @@ export const SectionNews = () => {
   return (
     <section className={styles.section_two}>
       <div className={styles.container}>
-        <SectionTitle width="380px">A cremosa de Verdade</SectionTitle>
+        <SectionTitle width="380px">Sabor que aprimora</SectionTitle>
 
         <p className={styles.description}>
-          Todas podem ser cremosas, mas só Delícia é cremoooosa DE VERDADE.
-          Somos a única margarina com creme de leite do mercado, que além de ter
-          uma textura ultra-mega-blaster cremosa, é mais fácil de espalhar e
-          muito mais indulgente para você.
+        Só Primor tem sabor de Primor. Nenhuma outra margarina é
+        capaz de dar o sabor que eu amo nas minhas receitas! Seja
+        pra espalhar no cuscuz do café da manhã ou pra fazer o bife
+        acebolado do almoço, ela deixa TUDO muito mais gostoso.
         </p>
 
         <div className={styles.fullBarWrapper}>
@@ -76,11 +76,11 @@ export const SectionNews = () => {
 
         <SectionTitle>Nossos Produtos</SectionTitle>
        <p className={styles.description}>
-          Texturas que ajudam a significar
-          nossa origem, trazem um tom
-          de criatividade e um convite a
-          exploramos todas as possibilidades
-          que a margarina oferece na culinária.
+          Primor tem orgulho de ser nordestina e não mede esforços para
+entender e atender as particularidades de cada pedacinho do
+Nordeste. Ela impulsiona pra frente o Nordeste que eu quero e
+dissemina a cultura para muito além dos esteriótipos. Eu me sinto
+representada de verdade pela marca.
         </p>
 
 

@@ -20,15 +20,16 @@ export const SectionAbout = () => {
 
         <div className={styles.textContent}>
           <span className={styles.tag}>
-            Estamos aqui para que a vida vire uma Delicia.
+            Representa os Nordestes.
             <div className={styles.divider}></div>
           </span>
 
           <p className={styles.description}>
-            Nosso apetite insaciável por uma vida deliciosa transforma cada momento 
-            em algo que vale a pena saborear. Acreditamos que não há nada tão bom 
-            que não possa virar uma Delícia, das receitas às relações, do astral 
-            ao cotidiano.
+            Primor tem orgulho de ser nordestina e não mede esforços para
+            entender e atender as particularidades de cada pedacinho do
+            Nordeste. Ela impulsiona pra frente o Nordeste que eu quero e
+            dissemina a cultura para muito além dos esteriótipos. Eu me sinto
+            representada de verdade pela marca.
           </p>
 
           <Link href="/sobre">

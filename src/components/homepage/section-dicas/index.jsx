@@ -9,9 +9,10 @@ export const SectionDicas = async ({ dicas }) => {
 
   const subtitleContent = hasDicas ? (
     <>
-      Acreditamos que a vida merece ser uma Delícia e estamos aqui para
-      transformar <br /> qualquer hora do dia com dicas especiais para o seu dia
-      a dia.
+Primor é a vizinha sem cerimônia e
+a figura familiar carinhosa que está
+sempre de braços abertos para o
+que der e vier. Confira nossas dicas.
     </>
   ) : (
     <>No momento não temos dicas cadastradas.</>
