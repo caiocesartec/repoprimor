@@ -1,5 +1,5 @@
 .aboutSection {
-  padding: 5rem 2rem;
+  padding: 5rem 4rem;
   background: #FAEBC8;
   color: #053282;
   text-align: center;
@@ -13,12 +13,9 @@
 }
 
 .heroPhrase span {
-  color: #facd0a;
+  color: #CE102C;
   font-family: stash-md;
-
 }
-
-
 
 .title {
   font-family: "Neulis";
@@ -41,7 +38,6 @@
 
 
 .contentWrapper {
-  display: flex;
   align-items: stretch;
   gap: 2rem;
   max-width: 1200px;
@@ -75,7 +71,7 @@
 }
 
 .textBlock strong {
-  color: #006EFA;
+  color: #CE102C;
 }
 
 .finalImageWrapper {
@@ -137,3 +133,4 @@
     padding: 3rem 1rem;
   }
 }
+
