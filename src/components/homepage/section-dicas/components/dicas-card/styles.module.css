@@ -30,6 +30,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start; 
+  padding-top: 4%;
+  padding-left: 4%;
 }
 
 .titulo {
@@ -42,11 +44,10 @@
 
 .descricao {
   font-family: "FinalSix";
-  font-weight: 400;
-  color: #0f4196;
-  font-size: 12px;
+  font-weight: 100;
+  color: #000000;
+  font-size: 16px;
   line-height: 32px;
-  text-transform: uppercase;
   margin-bottom: 0.75rem;
 }
 
@@ -61,4 +62,20 @@
   text-decoration: none;
   color: inherit;
   display: block;
+}
+@media (max-width: 890px) {
+  .content {
+    width: 100%;
+  }
+  .card {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .descricao {
+    font-size: 13px;
+    width: 100%;
+  }
 }
