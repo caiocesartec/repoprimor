@@ -144,4 +144,8 @@
     margin-bottom: 10px;
     text-align: right;
   }
+  .equipeSection {
+    padding-top: 70px;
+    padding-bottom: 0;
+  }
 }
