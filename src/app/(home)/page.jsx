@@ -8,8 +8,8 @@ import {getReceitas } from "@/lib/receitas";
 import { FormSection } from "@/components/homepage/section-form";
 
 export const metadata = {
-  title: "Delicia",
-  description: "delicia",
+  title: "Primor",
+  description: "Primor",
   author: "",
   icons: {
     icon: "/",

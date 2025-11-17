@@ -40,7 +40,7 @@ export const OpenMenu = () => {
           <Link href="/" onClick={() => setIsOpen(false)}>
             <Image
               src="/logos/logo.png"
-              alt="Logo delicia"
+              alt="Logo Primor"
               width={226}
               height={138}
               quality={100}
