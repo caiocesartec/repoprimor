@@ -32,43 +32,6 @@ que der e vier. Confira nossas dicas.
 
   return (
     <>
-    
-        <div className={styles.fullBarWrapper}>
-          <div className={styles.fullBarTrack}>
-            <Image
-              src="/genericas/barra_01.jpg"
-              alt="Barra decorativa 1"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.jpg"
-              alt="Barra decorativa 2"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_01.jpg"
-              alt="Barra decorativa 1 repeate"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.jpg"
-              alt="Barra 2 repeat"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-          </div>
-        </div>
     <section className={styles.dicasSection}>
       <div className={styles.content}>
         <SectionTitle width="250px"> Nossas dicas</SectionTitle>

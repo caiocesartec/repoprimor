@@ -37,42 +37,6 @@ export const SectionNews = () => {
         acebolado do almoço, ela deixa TUDO muito mais gostoso.
         </p>
 
-        <div className={styles.fullBarWrapper}>
-          <div className={styles.fullBarTrack}>
-            <Image
-              src="/genericas/barra_01.jpg"
-              alt="Barra decorativa 1"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.jpg"
-              alt="Barra decorativa 2"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_01.jpg"
-              alt="Barra decorativa 1 repeate"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.jpg"
-              alt="Barra 2 repeat"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-          </div>
-        </div>
 
         <SectionTitle>Nossos Produtos</SectionTitle>
        <p className={styles.description}>
@@ -104,42 +68,7 @@ representada de verdade pela marca.
             </Link>
           ))}
         </div>
-        <div className={styles.fullBarWrapper}>
-          <div className={styles.fullBarTrack}>
-            <Image
-              src="/genericas/barra_01.jpg"
-              alt="Barra decorativa 1"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.jpg"
-              alt="Barra decorativa 2"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_01.jpg"
-              alt="Barra decorativa 1 repeate"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-            <Image
-              src="/genericas/barra_02.jpg"
-              alt="Barra 2 repeat"
-              width={600}
-              height={120}
-              className={styles.fullBar}
-              quality={100}
-            />
-          </div>
-        </div>
+
       </div>
     </section>
   );
