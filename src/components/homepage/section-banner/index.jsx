@@ -19,7 +19,7 @@ const branches = [
   },
   {
     image: "/banners/banner_principal.jpg",
-    imageMobile: "/banners/mobile/principal.png",
+    imageMobile: "/banners/mobile/Principal.png",
     title: "Vira sabor, vira Delícia",
     text: "Cremosidade que faz a diferença.",
     textTwo: "Porque nada tá tão bom que não possa ficar ainda melhor.",
