@@ -1,229 +1,142 @@
 export const produtos = [
   {
-    slug: "delicia-com-creme-de-leite",
-    nome: "Delícia com creme de leite",
+    slug: "primor-original",
+    nome: "Margarina Primor 500g",
     descricao:
-      "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
-    imagem: "/produtos/pote-creme-500.png",
+      "Seja no forno, no bolo preferido ou no toque final do cuscuz, a margarina Primor é a escolha certa para quem cozinha com amor.",
+    imagem: "/produtos/primor_original.png",
 
     sobre: `
-A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.
-
-Perfeita no recheio e na massa da torta de frango pro jantar, naquele bolo macio e
-fofinho com cobertura cremosa para o lanche da tarde, ou na tapioquinha do café da
-manhã. Delícia deixa qualquer receita muito mais deliciosa em qualquer momento do dia.
-Afinal, comer bem não tem hora, né? 
+Seja no forno, preparando seu bolo preferido ou no toque final daquele cuscuz quentinho, 
+a margarina Primor é a escolha certa para quem cozinha com amor. Tenha sempre em casa!
 `,
 
     ingredientes: `
-Óleos vegetais líquidos e interesterificados (contém óleo de soja*), água, sal, leite
-desnatado reconstituído, creme de leite em pó, emulsificantes: mono e diglicerídeos
-de ácidos graxos e lecitina de soja*, conservador sorbato de potássio, acidulante
-ácido láctico, aromatizantes, antioxidantes: BHT, EDTA cálcio dissódico e ácido cítrico
-e corante natural de urucum e cúrcuma.
+Óleos vegetais líquidos e interesterificados (contém óleo de soja*), água, sal, cloreto de potássio, 
+emulsificantes: mono e diglicerídeos de ácidos graxos, lecitina de soja* e ésteres de poliglicerol 
+de ácidos graxos, aromatizantes, conservador benzoato de sódio, corante natural de urucum e cúrcuma, 
+antioxidantes: EDTA cálcio dissódico, BHT e ácido cítrico e acidulante ácido láctico.
 
-(*geneticamente modificado a partir de Streptomyces viridochromogenes e/ou Agrobacterium
-tumefaciens e/ou Bacillus thuringiensis).
+*(geneticamente modificado a partir de Streptomyces viridochromogenes e/ou Agrobacterium tumefaciens 
+e/ou Bacillus thuringiensis)
 
 NÃO CONTÉM GLÚTEN.  
-ALÉRGICOS: CONTÉM DERIVADOS DE SOJA E LEITE.  
-CONTÉM LACTOSE.
+ALÉRGICOS: CONTÉM DERIVADOS DE SOJA. PODE CONTER LEITE.
 `,
 
     nutricional: `
-Porção de 10g (1 colher de sopa) referente à versão com sal.
+Porção de 10g (1 colher de sopa)
 
-Valor energético: 69 kcal = 290 kJ — VD 3%  
-Carboidratos: 0 g — VD 0%  
-Proteínas: 0 g — VD 0%  
-Gorduras Totais: 7,7 g — VD 14%  
-Gorduras Saturadas: 2,2 g — VD 10%  
-Gorduras trans: 0 mg — VD **  
-Fibra Alimentar: 0 g — VD 0%  
-Sódio: 59 mg — VD 2%
-
-*% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
-** VD não estabelecidos.
+Valor energético: 54 kcal = 227 kJ — VD 3%
+Carboidratos: 0 g — VD 0%
+Proteínas: 0 g — VD 0%
+Gorduras totais: 6 g — VD 11%
+Gorduras saturadas: 1,9 g — VD 9%
+Gorduras trans: 0 g — VD **
+Fibra alimentar: 0 g — VD 0%
+Sódio: 65 mg — VD 3%
 `,
 
     nutricionalItens: [
-      { titulo: "Valor energético", quantidade: "69 kcal = 290 kJ", vd: "3%" },
+      { titulo: "Valor energético", quantidade: "54 kcal = 227 kJ", vd: "3%" },
       { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
       { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
-      { titulo: "Gorduras Totais", quantidade: "7,7 g", vd: "14%" },
-      { titulo: "Gorduras Saturadas", quantidade: "2,2 g", vd: "10%" },
-      { titulo: "Gorduras trans", quantidade: "0 mg", vd: "**" },
-      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
-      { titulo: "Sódio", quantidade: "59 mg", vd: "2%" },
+      { titulo: "Gorduras totais", quantidade: "6 g", vd: "11%" },
+      { titulo: "Gorduras saturadas", quantidade: "1,9 g", vd: "9%" },
+      { titulo: "Gorduras trans", quantidade: "0 g", vd: "**" },
+      { titulo: "Fibra alimentar", quantidade: "0 g", vd: "0%" },
+      { titulo: "Sódio", quantidade: "65 mg", vd: "3%" },
     ],
   },
 
   {
-    slug: "delicia-supreme",
-    nome: "Delícia Supreme",
+    slug: "primor-balde",
+    nome: "Margarina Primor Balde 3kg",
     descricao:
-      "A Delícia Supreme é a margarina amanteigada feita com creme de leite.",
-    imagem: "/produtos/pote-supreme-500.png",
+      "Margarina versátil, ideal para uso culinário e preparo de massas, frituras e receitas profissionais.",
+    imagem: "/produtos/primor_balde.png",
 
     sobre: `
-A Delícia Supreme é a margarina amanteigada feita com creme de leite. Então, se você
-quer fazer um prato digno de reality show, essa margarina vai te surpreender em
-performance e sabor! Explore todas as possibilidades que a Supreme oferece, do café
-da manhã ao jantar. Deixe o seu dia ainda mais Delícia.
+Seja no forno, preparando seu bolo preferido ou no toque final daquele cuscuz quentinho, 
+a margarina Primor é a escolha certa para quem cozinha com amor. Tenha sempre em casa!
 `,
 
     ingredientes: `
-Óleos vegetais líquidos e interesterificados (contém óleo de soja*), água, sal, leite
-desnatado reconstituído, creme de leite em pó, emulsificantes: mono e diglicerídeos
-de ácidos graxos e lecitina de soja*, conservador sorbato de potássio, acidulante
-ácido láctico, aromatizantes, antioxidantes: BHT, EDTA cálcio dissódico e ácido cítrico
-e corante natural de urucum e cúrcuma.
+Óleos vegetais líquidos e interesterificados (contém óleo de soja*), água, sal, emulsificantes: 
+mono e diglicerídeos de ácidos graxos, ésteres de poliglicerol de ácidos graxos e lecitina de soja*, 
+aromatizantes, conservador benzoato de sódio, corante natural de urucum e cúrcuma, antioxidantes: 
+EDTA cálcio dissódico, BHT e ácido cítrico e acidulante ácido láctico.
 
-(*geneticamente modificado a partir de Streptomyces viridochromogenes e/ou Agrobacterium
-tumefaciens e/ou Bacillus thuringiensis).
-
-NÃO CONTÉM GLÚTEN.  
-ALÉRGICOS: CONTÉM DERIVADOS DE SOJA E LEITE.  
-CONTÉM LACTOSE.
+ALÉRGICOS: CONTÉM DERIVADOS DE SOJA. PODE CONTER LEITE.  
+NÃO CONTÉM GLÚTEN.
 `,
 
     nutricional: `
-Porção de 10g (1 colher de sopa) referente à versão com sal.
+Porção de 10g (1 colher de sopa)
 
-Valor energético: 74 kcal = 311 kJ — VD 4%  
-Carboidratos: 0 g — VD 0%  
-Proteínas: 0 g — VD 0%  
-Gorduras totais: 8,2 g — VD 15%  
-Gorduras saturadas: 2,4 g — VD 11%  
-Gorduras trans: 0 g — VD **  
-Fibra alimentar: 0 g — VD 0%  
-Sódio: 51 mg — VD 2%
-
-*% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
-** VD não estabelecidos.
+Valor energético: 54 kcal  
+Carboidratos: 0 g  
+Proteínas: 0 g  
+Gorduras totais: 6 g  
+Gorduras saturadas: 2,2 g  
+Gorduras trans: 0,1 g  
+Fibras: 0 g  
+Sódio: 60 mg  
 `,
 
     nutricionalItens: [
-      { titulo: "Valor energético", quantidade: "74 kcal = 311 kJ", vd: "4%" },
+      { titulo: "Valor energético", quantidade: "54 kcal", vd: "3%" },
       { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
       { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
-      { titulo: "Gorduras Totais", quantidade: "8,2 g", vd: "15%" },
-      { titulo: "Gorduras Saturadas", quantidade: "2,4 g", vd: "11%" },
-      { titulo: "Gorduras trans", quantidade: "0 g", vd: "**" },
-      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
-      { titulo: "Sódio", quantidade: "51 mg", vd: "2%" },
+      { titulo: "Gorduras totais", quantidade: "6 g", vd: "9%" },
+      { titulo: "Gorduras saturadas", quantidade: "2,2 g", vd: "11%" },
+      { titulo: "Gorduras trans", quantidade: "0,1 g", vd: "5%" },
+      { titulo: "Fibra alimentar", quantidade: "0 g", vd: "0%" },
+      { titulo: "Sódio", quantidade: "60 mg", vd: "3%" },
     ],
   },
 
   {
-    slug: "delicia-toque-de-chef-com-alho-e-cebola",
-    nome: "Delícia Toque de Chef com Alho e Cebola",
-    descricao: "Pedacinhos reais de alho e cebola.",
-    imagem: "/produtos/pote-alho-500.png",
+    slug: "primor-gordura-vegetal",
+    nome: "Gordura Vegetal 500g",
+    descricao:
+      "Gordura vegetal ideal para preparo de massas, frituras e aplicações culinárias intensas.",
+    imagem: "/produtos/primor_gordura.png",
 
     sobre: `
-A Delícia Toque de Chef com Alho e Cebola traz sabor marcante com pedacinhos reais
-de alho e cebola tostados. Ideal para deixar qualquer receita mais aromática e cheia
-de personalidade.
+Seja no forno, preparando seu bolo preferido ou no toque final daquele cuscuz quentinho, 
+a margarina Primor é a escolha certa para quem cozinha com amor. Tenha sempre em casa!
 `,
 
     ingredientes: `
-Óleos vegetais líquidos e interesterificados (contém óleo de soja*), água, sal,
-alho e cebola tostados (alimentos tratados por processo de irradiação), leite
-desnatado reconstituído, creme de leite em pó, emulsificantes: mono e diglicerídeos
-de ácidos graxos e lecitina de soja*, aromatizantes, conservador sorbato de potássio,
-acidulante ácido láctico, antioxidantes: BHT, EDTA cálcio dissódico e ácido cítrico,
-corante natural de urucum e cúrcuma.
+Gordura de palma e antioxidantes BHT e ácido cítrico.
 
-(*geneticamente modificado a partir de Streptomyces viridochromogenes e/ou Agrobacterium
-tumefaciens e/ou Bacillus thuringiensis).
-
-NÃO CONTÉM GLÚTEN.  
-ALÉRGICOS: CONTÉM DERIVADOS DE SOJA E LEITE.  
-CONTÉM LACTOSE.
+ALÉRGICOS: PODE CONTER SOJA.  
+NÃO CONTÉM GLÚTEN.
 `,
 
     nutricional: `
-Porção de 10g (1 colher de sopa) referente à versão com sal.
+Porção 10g (1 colher de sopa)
 
-Valor energético: 70 kcal = 287 kJ — VD 4%  
-Carboidratos: 0 g — VD 0%  
-Proteínas: 0 g — VD 0%  
-Gorduras Totais: 7,7 g — VD 14%  
-Gorduras Saturadas: 2,2 g — VD 10%  
-Gorduras trans: 0 g — VD **  
-Fibra Alimentar: 0 g — VD 0%  
-Sódio: 54 mg — VD 2%
-
-*% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
-** VD não estabelecidos.
+Valor energético: 90 kcal — VD 5%
+Carboidratos: 0 g — VD 0%
+Proteínas: 0 g — VD 0%
+Gorduras totais: 10 g — VD 15%
+Gorduras saturadas: 5,1 g — VD 26%
+Gorduras trans: 0,1 g — VD 5%
+Fibras: 0 g — VD 0%
+Sódio: 0 mg — VD 0%
 `,
 
     nutricionalItens: [
-      { titulo: "Valor energético", quantidade: "70 kcal = 287 kJ", vd: "4%" },
+      { titulo: "Valor energético", quantidade: "90 kcal", vd: "5%" },
       { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
       { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
-      { titulo: "Gorduras Totais", quantidade: "7,7 g", vd: "14%" },
-      { titulo: "Gorduras Saturadas", quantidade: "2,2 g", vd: "10%" },
-      { titulo: "Gorduras trans", quantidade: "0 g", vd: "**" },
-      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
-      { titulo: "Sódio", quantidade: "54 mg", vd: "2%" },
-    ],
-  },
-
-  {
-    slug: "delicia-toque-de-chef-com-ervas-aromaticas",
-    nome: "Delícia Toque de Chef com Ervas Aromáticas",
-    descricao: "Feita com pedacinhos reais de ervas.",
-    imagem: "/produtos/pote-ervas-500.png",
-
-    sobre: `
-A Delícia Toque de Chef com Ervas Aromáticas possui pedacinhos reais de ervas que
-elevam o sabor de qualquer receita. Ideal para massas, carnes, legumes e tudo o que
-merece um toque especial.
-`,
-
-    ingredientes: `
-Óleos vegetais líquidos e interesterificados (contém óleo de soja*), água, sal,
-leite desnatado reconstituído, especiarias (alimentos tratados por processo de
-irradiação), creme de leite em pó, emulsificantes: mono e diglicerídeos de ácidos
-graxos e lecitina de soja*, aromatizantes, conservador sorbato de potássio,
-acidulante ácido láctico, antioxidantes: BHT, EDTA cálcio dissódico e ácido cítrico,
-corante natural de urucum e cúrcuma.
-
-(*geneticamente modificado a partir de Streptomyces viridochromogenes e/ou Agrobacterium
-tumefaciens e/ou Bacillus thuringiensis).
-
-NÃO CONTÉM GLÚTEN.  
-ALÉRGICOS: CONTÉM DERIVADOS DE SOJA E LEITE.  
-CONTÉM LACTOSE.
-`,
-
-    nutricional: `
-Porção de 10g (1 colher de sopa) referente à versão com sal.
-
-Valor energético: 69 kcal = 285 kJ — VD 3%  
-Carboidratos: 0 g — VD 0%  
-Proteínas: 0 g — VD 0%  
-Gorduras Totais: 7,7 g — VD 14%  
-Gorduras Saturadas: 2,2 g — VD 10%  
-Gorduras trans: 0 g — VD **  
-Fibra Alimentar: 0 g — VD 0%  
-Sódio: 54 mg — VD 2%
-
-*% Valores Diários de referência com base em uma dieta de 2.000 Kcal.  
-** VD não estabelecidos.
-`,
-
-    nutricionalItens: [
-      { titulo: "Valor energético", quantidade: "69 kcal = 285 kJ", vd: "3%" },
-      { titulo: "Carboidratos", quantidade: "0 g", vd: "0%" },
-      { titulo: "Proteínas", quantidade: "0 g", vd: "0%" },
-      { titulo: "Gorduras Totais", quantidade: "7,7 g", vd: "14%" },
-      { titulo: "Gorduras Saturadas", quantidade: "2,2 g", vd: "10%" },
-      { titulo: "Gorduras trans", quantidade: "0 g", vd: "**" },
-      { titulo: "Fibra Alimentar", quantidade: "0 g", vd: "0%" },
-      { titulo: "Sódio", quantidade: "54 mg", vd: "2%" },
+      { titulo: "Gorduras totais", quantidade: "10 g", vd: "15%" },
+      { titulo: "Gorduras saturadas", quantidade: "5,1 g", vd: "26%" },
+      { titulo: "Gorduras trans", quantidade: "0,1 g", vd: "5%" },
+      { titulo: "Fibra alimentar", quantidade: "0 g", vd: "0%" },
+      { titulo: "Sódio", quantidade: "0 mg", vd: "0%" },
     ],
   },
 ];

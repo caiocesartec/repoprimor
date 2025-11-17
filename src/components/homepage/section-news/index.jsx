@@ -5,31 +5,25 @@ import { SectionTitle } from "@/components/common/section-title";
 
 export const SectionNews = () => {
   const cards = [
-    {
-      icon: "/produtos/pote-creme-500.png",
-      title: "Delícia com creme de leite",
-      text: "A Delícia com creme de leite traz uma explosão de sabor e muita cremosidade.",
-      slug: "delicia-com-creme-de-leite",
-    },
-    {
-      icon: "/produtos/pote-supreme-500.png",
-      title: "Delícia Supreme",
-      text: "A Delícia Supreme é a margarina amanteigada feita com creme de leite.",
-      slug: "delicia-supreme",
-    },
-    {
-      icon: "/produtos/pote-ervas-500.png",
-      title: "Delícia Toque de Chef com Ervas Aromáticas",
-      text: "A margarina Delícia Toque de Chef com Ervas Aromáticas é feita com pedacinhos de ervas, de verdade, acredita?",
-      slug: "delicia-toque-de-chef-com-ervas-aromaticas",
-    },
-    {
-      icon: "/produtos/pote-alho-500.png",
-      title: "Delícia Toque de Chef com Alho e Cebola",
-      text: "A margarina Delícia Toque de Chef com Alho e Cebola é feita com pedacinhos de alho e cebola e, de verdade, sabia?",
-      slug: "delicia-toque-de-chef-com-alho-e-cebola",
-    },
-  ];
+  {
+    icon: "/produtos/primor_original.png",
+    title: "Margarina Primor 500g",
+    text: "A margarina perfeita para forno, fogão e receitas do dia a dia.",
+    slug: "primor-original",
+  },
+  {
+    icon: "/produtos/primor_balde.png",
+    title: "Margarina Primor Balde 3kg",
+    text: "Ideal para uso culinário intenso, com sabor e performance profissional.",
+    slug: "primor-balde",
+  },
+  {
+    icon: "/produtos/primor_gordura.png",
+    title: "Gordura Vegetal 500g",
+    text: "Gordura vegetal ideal para massas, frituras e usos culinários diversos.",
+    slug: "primor-gordura-vegetal",
+  },
+];
 
   return (
     <section className={styles.section_two}>
