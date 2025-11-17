@@ -80,7 +80,7 @@ export const SectionDicas = async ({ dicas }) => {
               slides={slides}
               loop
               pagination
-              autoplay={true}
+              autoplay={false}
               autoplayDelay={3500}
               spaceBetween={24}
               breakpoints={{
@@ -96,11 +96,3 @@ export const SectionDicas = async ({ dicas }) => {
     </>
   );
 };
-
-{
-  /* <span className={styles.tag}>
-    DICAS <div className={styles.divider}></div>
-  </span>
-
-  <h2 className={styles.title}>Nossas dicas</h2> */
-}
