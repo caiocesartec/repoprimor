@@ -41,7 +41,7 @@
 
 /* GRID DE PRODUTOS */
 .productsGrid {
-    margin-top: 11rem;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem 2rem;
@@ -90,13 +90,13 @@
    SEÇÃO DE DESTAQUE DO PRODUTO
 ----------------------------- */
 
-.SectionThreeProductShow .productContainer {
+.productContainer {
     background-color: #CE102C;
     margin-top: -1px;
     border-bottom: solid 6px #FFD100;
 }
 
-.SectionThreeProductShow .productContainer .productTitleCall {
+.productTitleCall {
     text-align: center;
     font-size: 74px;
     font-weight: 800;
@@ -109,7 +109,7 @@
     margin: 0 auto;
 }
 
-.SectionThreeProductShow .productContainer .descriptionProducts {
+.descriptionProducts {
     font-size: 19px;
     font-weight: 100;
     padding-bottom: 70px;
@@ -131,13 +131,13 @@
         margin-left: 0px;
     }
 
-    .SectionThreeProductShow .productContainer .productTitleCall {
+    .productTitleCall {
         font-size: 32px;
         line-height: 72px;
         padding-top: 28px;
     }
 
-    .SectionThreeProductShow .productContainer .descriptionProducts {
+    .descriptionProducts {
         font-size: 16px;
         margin-top: 4px;
         padding-bottom: 50px;
