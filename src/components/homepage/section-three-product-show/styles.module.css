@@ -109,11 +109,11 @@
             text-align: center;
             color: #F4E3C0!important;
             font-weight: 100;
-            line-height: 25px;
+            line-height: 1.6;
             max-width: 1200px;
             width: 90%;
             margin: 0 auto;
-            margin-top: 10px;
+            margin-top: 12px;
         }
     }
 }
@@ -131,7 +131,7 @@
             }
             .descriptionProducts {
                 font-size: 16px;
-                margin-top: 5px;
+                margin-top: 4px;
                 padding-bottom: 50px;
                 line-height: 25px;
             }
