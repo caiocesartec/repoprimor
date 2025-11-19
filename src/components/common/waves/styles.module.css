@@ -2,6 +2,12 @@
   width: 100%;
   height: auto;
   display: block;
+
+    /* Safari Fix */
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
 }
 
 .down {
