@@ -3,6 +3,7 @@
     margin-left: 4rem;
 }
 
+/* Container base */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -13,6 +14,7 @@
     margin-bottom: 3rem;
 }
 
+/* Textos principais */
 .title {
     font-size: 34px;
     font-weight: 800;
@@ -34,9 +36,10 @@
     font-weight: 100;
     color: #CE102C;
     line-height: 1.6;
-    margin-bottom:60px;
+    margin-bottom: 60px;
 }
 
+/* GRID DE PRODUTOS */
 .productsGrid {
     margin-top: 11rem;
     display: grid;
@@ -44,10 +47,12 @@
     gap: 4rem 2rem;
     place-items: center;
 }
+
 .productsGrid .productCardLink {
     width: 100%;
     text-align: center;
 }
+
 .productCard {
     text-align: center;
     max-width: 100%;
@@ -59,7 +64,6 @@
     width: 315px;
     height: 233px;
     margin: 0 auto;
-    
 }
 
 .productImage {
@@ -82,62 +86,65 @@
     margin: 0 auto;
 }
 
+/* ----------------------------
+   SEÇÃO DE DESTAQUE DO PRODUTO
+----------------------------- */
 
-.SectionThreeProductShow {
-    .productContainer {
-        background-color: #CE102C;
-        margin-top: -1px;
-        border-bottom: solid 6px #FFD100;
-        .productTitleCall {
-            text-align: center;
-            font-size: 74px;
-            font-weight: 800;
-            color: #FFD100;
-            font-family: stash-md;
-            line-height: 72px;
-            padding-top: 45px;
-            max-width: 1200px;
-            width: 90%;
-            margin: 0 auto;
-        }
-        .descriptionProducts {
-            font-size: 19px;
-            font-weight: 100;
-            padding-bottom: 70px;
-            margin-bottom: -1px;
-            max-width: 90%;
-            text-align: center;
-            color: #F4E3C0!important;
-            font-weight: 100;
-            line-height: 1.6;
-            max-width: 1200px;
-            width: 90%;
-            margin: 0 auto;
-            margin-top: 12px;
-        }
-    }
+.SectionThreeProductShow .productContainer {
+    background-color: #CE102C;
+    margin-top: -1px;
+    border-bottom: solid 6px #FFD100;
 }
 
+.SectionThreeProductShow .productContainer .productTitleCall {
+    text-align: center;
+    font-size: 74px;
+    font-weight: 800;
+    color: #FFD100;
+    font-family: stash-md;
+    line-height: 72px;
+    padding-top: 45px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
 
+.SectionThreeProductShow .productContainer .descriptionProducts {
+    font-size: 19px;
+    font-weight: 100;
+    padding-bottom: 70px;
+    margin-bottom: -1px;
+    text-align: center;
+    color: #F4E3C0 !important;
+    line-height: 1.6;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+/* ----------------------------
+   RESPONSIVO 1024PX
+----------------------------- */
 @media (max-width: 1024px) {
     .SectionThreeProductShow {
         margin-left: 0px;
-        .productContainer {
+    }
 
-            .productTitleCall {
-                font-size: 32px;
-                line-height: 72px;
-                padding-top: 25px;
-            }
-            .descriptionProducts {
-                font-size: 16px;
-                margin-top: 4px;
-                padding-bottom: 50px;
-                line-height: 25px;
-            }
-        }
+    .SectionThreeProductShow .productContainer .productTitleCall {
+        font-size: 32px;
+        line-height: 72px;
+        padding-top: 25px;
+    }
+
+    .SectionThreeProductShow .productContainer .descriptionProducts {
+        font-size: 16px;
+        margin-top: 4px;
+        padding-bottom: 50px;
+        line-height: 25px;
     }
 }
+
 
 @media (max-width: 768px) {
     .productsGrid {
@@ -158,45 +165,4 @@
         font-size: 14px;
         padding: 0 1rem;
     }
-}
-
-
-.fullBarWrapper {
-  margin: 3rem 0;
-  border-top: 2px solid #CE102C;
-  border-bottom: 2px solid #CE102C;
-  overflow: hidden;
-  width: calc(100vw + 4rem);
-  left: 50%;
-  margin-left: calc(-50vw - 2rem);
-  position: relative;
-  height: 90px;
-  margin-bottom: 10px;
-}
-
-.fullBarTrack {
-  display: flex;
-  width: max-content;
-  height: 100%;
-}
-
-.fullBar {
-  object-fit: cover;
-  height: 100%;
-  width: auto;
-}
-
-@media (max-width: 768px) {
-  .fullBarWrapper {
-    width: 100vw;
-    margin-left: -50vw;
-    left: 50%;
-    height: 90px;
-    border-width: 2px;
-    margin-top: 25px;
-  }
-
-  .fullBar {
-    height: 90px;
-  }
 }
