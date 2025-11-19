@@ -34,7 +34,7 @@ que der e vier. Confira nossas dicas.
     <>
     <section className={styles.dicasSection}>
       <div className={styles.content}>
-        <SectionTitle width="250px"> Nossas dicas</SectionTitle>
+        <SectionTitle color="#facd0a"> Nossas dicas</SectionTitle>
 
         <p className={styles.subtitle}>{subtitleContent}</p>
 

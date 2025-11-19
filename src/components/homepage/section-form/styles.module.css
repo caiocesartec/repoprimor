@@ -3,6 +3,15 @@
   justify-content: center;
   padding: 1rem;
   font-family: "Neulis";
+  /* background-image: url('/banners/degrade.jpg'); */
+  /* background: radial-gradient(circle at 85% 10%,
+      #f5711c 0%,
+      rgba(245, 113, 28, 0) 40%),
+    linear-gradient(90deg,
+      #f13361 0%,
+      #ea0031 40%,
+      #ea0031 100%); */
+
 }
 
 .newsletterBox {
