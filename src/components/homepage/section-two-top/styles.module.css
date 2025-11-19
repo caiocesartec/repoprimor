@@ -16,7 +16,7 @@
 }
 
 .title {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 800;
     color: #CE102C;
     font-family: "Neulis";
@@ -36,9 +36,16 @@
     font-weight: 100;
     color: #CE102C;
     line-height: 1.6;
+    margin-bottom:60px;
+}
+.descriptionProducts {
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 1.6;
+    margin-bottom: 60px;
 }
 .productsGrid {
-    margin-top: 3rem;
+    margin-top: 11rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem 2rem;
@@ -59,6 +66,7 @@
     width: 315px;
     height: 233px;
     margin: 0 auto;
+    
 }
 
 .productImage {
@@ -80,6 +88,10 @@
     max-width: 320px;
     margin: 0 auto;
 }
+.productContainer {
+    background-color: red;
+}
+
 @media (max-width: 1024px) {
     .section_two {
         margin-top: 25px;
@@ -91,6 +103,12 @@
         font-weight: 800;
         color: #CE102C;
         margin-bottom: 0.5rem;
+    }
+    .description {
+        margin-bottom: 40px;
+    }
+    .descriptionProducts {
+        margin-bottom: 34px;
     }
 }
 

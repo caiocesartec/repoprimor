@@ -1,0 +1,202 @@
+.SectionThreeProductShow {
+    background-color: #F4E3C0;
+    margin-left: 4rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left {
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #CE102C;
+    font-family: "Neulis";
+    max-width: 380px;
+    margin: 0 auto 1rem;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #CE102C;
+    margin: 6px auto 0;
+}
+
+.description {
+    font-size: 19px;
+    font-weight: 100;
+    color: #CE102C;
+    line-height: 1.6;
+    margin-bottom:60px;
+}
+
+.productsGrid {
+    margin-top: 11rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 2rem;
+    place-items: center;
+}
+.productsGrid .productCardLink {
+    width: 100%;
+    text-align: center;
+}
+.productCard {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 315px;
+    height: 233px;
+    margin: 0 auto;
+    
+}
+
+.productImage {
+    object-fit: contain;
+}
+
+.productTitle {
+    font-family: stash-md;
+    font-size: 33px;
+    font-weight: 800;
+    color: #CE102C;
+    margin-bottom: 0.5rem;
+}
+
+.productText {
+    font-size: 14px;
+    color: #CE102C;
+    line-height: 1.5;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+
+.SectionThreeProductShow {
+    .productContainer {
+        background-color: #CE102C;
+        margin-top: -1px;
+        border-bottom: solid 6px #FFD100;
+        .productTitleCall {
+            text-align: center;
+            font-size: 74px;
+            font-weight: 800;
+            color: #FFD100;
+            font-family: stash-md;
+            line-height: 72px;
+            padding-top: 45px;
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .descriptionProducts {
+            font-size: 19px;
+            font-weight: 100;
+            padding-bottom: 70px;
+            margin-bottom: -1px;
+            max-width: 90%;
+            text-align: center;
+            color: #F4E3C0!important;
+            font-weight: 100;
+            line-height: 25px;
+            max-width: 1200px;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .SectionThreeProductShow {
+        margin-left: 0px;
+        .productContainer {
+
+            .productTitleCall {
+                font-size: 32px;
+                line-height: 72px;
+                padding-top: 25px;
+            }
+            .descriptionProducts {
+                font-size: 16px;
+                margin-top: 5px;
+                padding-bottom: 50px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .productsGrid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .section_two {
+        margin-left: 0;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-top: 110px;
+    }
+
+    .description {
+        font-size: 14px;
+        padding: 0 1rem;
+    }
+}
+
+
+.fullBarWrapper {
+  margin: 3rem 0;
+  border-top: 2px solid #CE102C;
+  border-bottom: 2px solid #CE102C;
+  overflow: hidden;
+  width: calc(100vw + 4rem);
+  left: 50%;
+  margin-left: calc(-50vw - 2rem);
+  position: relative;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.fullBarTrack {
+  display: flex;
+  width: max-content;
+  height: 100%;
+}
+
+.fullBar {
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .fullBarWrapper {
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    height: 90px;
+    border-width: 2px;
+    margin-top: 25px;
+  }
+
+  .fullBar {
+    height: 90px;
+  }
+}

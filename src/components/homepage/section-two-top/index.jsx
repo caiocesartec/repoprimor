@@ -1,9 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
 import styles from "./styles.module.css";
 import { SectionTitle } from "@/components/common/section-title";
 
-export const SectionNews = () => {
+export const SectionTwoTop = () => {
   const cards = [
   {
     icon: "/produtos/primor_original.png",
@@ -36,39 +34,6 @@ export const SectionNews = () => {
         pra espalhar no cuscuz do café da manhã ou pra fazer o bife
         acebolado do almoço, ela deixa TUDO muito mais gostoso.
         </p>
-
-
-        <SectionTitle>Nossos Produtos</SectionTitle>
-       <p className={styles.description}>
-          Primor tem orgulho de ser nordestina e não mede esforços para
-entender e atender as particularidades de cada pedacinho do
-Nordeste. Ela impulsiona pra frente o Nordeste que eu quero e
-dissemina a cultura para muito além dos esteriótipos. Eu me sinto
-representada de verdade pela marca.
-        </p>
-
-
-        <div className={styles.productsGrid}>
-          {cards.map((card) => (
-            <Link className={styles.productCardLink} href={`/produtos/${card.slug}`} key={card.slug}>
-              <div className={styles.productCard}>
-                <div className={styles.imageWrapper}>
-                  <Image
-                    src={card.icon}
-                    alt={card.title}
-                    fill
-                    quality={100}
-                    className={styles.productImage}
-                  />
-                </div>
-
-                <h3 className={styles.productTitle}>{card.title}</h3>
-                <p className={styles.productText}>{card.text}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-
       </div>
     </section>
   );

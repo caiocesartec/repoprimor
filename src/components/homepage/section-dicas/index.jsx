@@ -3,7 +3,6 @@ import styles from "./styles.module.css";
 import { CustomSwiper } from "@/components/common/swiper";
 import { DicasCard } from "./components/dicas-card";
 import { SectionTitle } from "@/components/common/section-title";
-import { Wave } from "@/components/common/waves";
 
 export const SectionDicas = async ({ dicas }) => {
   const hasDicas = dicas && dicas.length > 0;
@@ -33,7 +32,6 @@ que der e vier. Confira nossas dicas.
 
   return (
     <>
-      <Wave direction="up" />
       <section className={styles.dicasSection}>
         <div className={styles.content}>
           <SectionTitle color="#facd0a"> Nossas dicas</SectionTitle>
@@ -59,7 +57,6 @@ que der e vier. Confira nossas dicas.
           )}
         </div>
       </section>
-      <Wave direction="down" />
     </>
   );
 };
