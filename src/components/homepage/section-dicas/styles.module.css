@@ -1,17 +1,10 @@
 .dicasSection {
   position: relative;
   width: 100%;
-  min-height: 61vh;
+  height: 670px;
   overflow: hidden;
-  background-image: url('/banners/degrade.jpg');
-
-  /* background: radial-gradient(circle at 85% 10%,
-      #f5711c 0%,
-      rgba(245, 113, 28, 0) 40%),
-    linear-gradient(90deg,
-      #f13361 0%,
-      #ea0031 40%,
-      #ea0031 100%); */
+  background-color: #CE102C;
+  padding-left: 63px;
 }
 .backgroundImage {
   width: 100%;
@@ -49,13 +42,6 @@
   margin-bottom: 0.5rem;
 }
 
-.divider {
-  width: 70px;
-  height: 2px;
-  background-color: #CE102C;
-  margin: 4px auto 0;
-}
-
 .title {
   font-family: "Neulis";
   font-size: 24px;
@@ -65,15 +51,20 @@
 }
 
 .subtitle {
-  font-size: 1rem;
-  max-width: 800px;
-  margin: 0 auto 3rem;
-  line-height: 1.6;
-  color: #CE102C;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 12px auto 0;
+    padding-bottom: 20px;
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 1.6;
+    color: #f4e3c0 !important;
 }
 
 .carouselWrapper {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .dicasSwiper {
@@ -90,49 +81,19 @@
 
 @media (max-width: 1024px) {
   .title {
-    font-size: 18px;
+    font-size: 32px;
   }
   .subtitle {
-    font-size: 12px;
+    width: 70%;
+    font-size: 16px;
+  }
+  .dicasSection {
+    padding-left: 0px;
   }
 }
 
-.fullBarWrapper {
-  margin: 3rem 0;
-  border-top: 2px solid #CE102C;
-  border-bottom: 2px solid #CE102C;
-  overflow: hidden;
-  width: calc(100vw + 4rem);
-  left: 50%;
-  margin-left: calc(-50vw - 2rem);
-  position: relative;
-  height: 90px;
-  margin-top: 90px;
-}
-
-.fullBarTrack {
-  display: flex;
-  width: max-content;
-  height: 100%;
-}
-
-.fullBar {
-  object-fit: cover;
-  height: 100%;
-  width: auto;
-}
-
-@media (max-width: 768px) {
-  .fullBarWrapper {
-    width: 100vw;
-    margin-left: -50vw;
-    left: 50%;
-    height: 90px;
-    border-width: 4px;
-  }
-
-  .fullBar {
-    height: 90px;
+@media (max-width: 890px) {
+  .dicasSection {
+    height: 740px;
   }
 }
-

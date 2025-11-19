@@ -69,6 +69,14 @@
   }
 }
 
+
+@media (max-width: 768px) {
+  .inner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .formGroup {
   display: flex;
   flex-direction: column;

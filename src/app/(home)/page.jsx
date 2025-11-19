@@ -1,4 +1,5 @@
 import { SectionAbout } from "@/components/homepage/section-about";
+import { SectionAboutTwo } from "@/components/homepage/section-about-two";
 import { SectionBanner } from "@/components/homepage/section-banner";
 import { SectionEquipe } from "@/components/homepage/section-equipe";
 import { SectionReceitas } from "@/components/homepage/section-receitas";
@@ -31,6 +32,7 @@ const HomePage = async () => {
         <SectionAbout />
         {/* <SectionPracticeAreas /> */}
         <SectionReceitas receitas={receitas} />
+        <SectionAboutTwo />
         <SectionEquipe />
         <FormSection />
       </main>
