@@ -3,13 +3,14 @@ import styles from "./styles.module.css";
 import Link from "next/link";
 import { getDicas } from "@/lib/dicas";
 import { SectionDicas } from "../section-dicas";
+import { Wave } from "@/components/common/waves";
 
 const dicas = await getDicas();
 
 export const SectionEquipe = () => {
   return (
     <section className={styles.container}>
-
+      <Wave direction="down" />
       <div className={styles.trabalheConosco}>
         <div className={styles.text}>
           <h3 className={styles.tag}>Dá um quentinho no coração.</h3>

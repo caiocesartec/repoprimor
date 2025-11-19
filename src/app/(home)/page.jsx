@@ -6,6 +6,7 @@ import { SectionNews } from "@/components/homepage/section-news";
 import { SectionPracticeAreas } from "@/components/homepage/section-pratices-areas";
 import {getReceitas } from "@/lib/receitas";
 import { FormSection } from "@/components/homepage/section-form";
+import { Wave } from "@/components/common/waves";
 
 export const metadata = {
   title: "Primor",
@@ -29,6 +30,7 @@ const HomePage = async () => {
         <SectionNews novidades={novidades} />
         <SectionAbout />
         {/* <SectionPracticeAreas /> */}
+        <Wave  />
         <SectionReceitas receitas={receitas} />
         <SectionEquipe />
         <FormSection />

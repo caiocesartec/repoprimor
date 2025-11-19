@@ -3,12 +3,13 @@ import styles from "./styles.module.css";
 import { CustomSwiper } from "@/components/common/swiper";
 import { DicasCard } from "./components/dicas-card";
 import { SectionTitle } from "@/components/common/section-title";
+import { Wave } from "@/components/common/waves";
 
 export const SectionDicas = async ({ dicas }) => {
   const hasDicas = dicas && dicas.length > 0;
 
   const subtitleContent = hasDicas ? (
-    <>
+<>
 Primor é a vizinha sem cerimônia e
 a figura familiar carinhosa que está
 sempre de braços abertos para o
@@ -32,31 +33,33 @@ que der e vier. Confira nossas dicas.
 
   return (
     <>
-    <section className={styles.dicasSection}>
-      <div className={styles.content}>
-        <SectionTitle color="#facd0a"> Nossas dicas</SectionTitle>
+      <Wave direction="up" />
+      <section className={styles.dicasSection}>
+        <div className={styles.content}>
+          <SectionTitle color="#facd0a"> Nossas dicas</SectionTitle>
 
-        <p className={styles.subtitle}>{subtitleContent}</p>
+          <p className={styles.subtitle}>{subtitleContent}</p>
 
-        {hasDicas && (
-          <div className={styles.carouselWrapper}>
-            <CustomSwiper
-              slides={slides}
-              loop
-              pagination
-              autoplay={false}
-              autoplayDelay={3500}
-              spaceBetween={24}
-              breakpoints={{
-                768: { slidesPerView: 1 },
-                1024: { slidesPerView: 1 },
-              }}
-              className={styles.dicasSwiper}
-            />
-          </div>
-        )}
-      </div>
-    </section>
+          {hasDicas && (
+            <div className={styles.carouselWrapper}>
+              <CustomSwiper
+                slides={slides}
+                loop
+                pagination
+                autoplay={false}
+                autoplayDelay={3500}
+                spaceBetween={24}
+                breakpoints={{
+                  768: { slidesPerView: 1 },
+                  1024: { slidesPerView: 1 },
+                }}
+                className={styles.dicasSwiper}
+              />
+            </div>
+          )}
+        </div>
+      </section>
+      <Wave direction="down" />
     </>
   );
 };
