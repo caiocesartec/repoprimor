@@ -53,12 +53,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem 2rem;
     place-items: center;
-<<<<<<< HEAD
     display: flex;
     overflow: auto;
-=======
-    margin-bottom: 60px;
->>>>>>> f10c69e (header logo e prateleiras)
 }
 
 .productsGrid .productCardLink {
