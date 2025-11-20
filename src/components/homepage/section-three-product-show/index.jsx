@@ -64,7 +64,6 @@ export const SectionThreeProductShow = () => {
             </Link>
           ))}
         </div>
-        <div className={styles.barraLegal}></div>
 
 
       </div>
