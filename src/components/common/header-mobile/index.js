@@ -1,14 +1,12 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
-import { RiMenu3Line } from "react-icons/ri";
-import { IoClose } from "react-icons/io5";
 import { OpenMenu } from "../menu-aberto";
 import Link from "next/link";
 
 export const HeaderMobile = () => {
   return (
     <header className={styles.headerMobile}>
-      <Link href="/">
+      <Link className={styles.logoLink} href="/">
         <Image
           src="/logos/logo.png"
           alt="reservado"

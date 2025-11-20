@@ -38,16 +38,27 @@
     line-height: 1.6;
     margin-bottom: 60px;
 }
+.barraLegal {
+    height: 30px;
+    width: 100%;
+    border-top: solid 4px #FABD05;
+    border-bottom: solid 4px #FABD05;
+    background-color: #CE102C;
+}
 
 /* GRID DE PRODUTOS */
 .productsGrid {
     margin-top: 50px;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem 2rem;
     place-items: center;
+<<<<<<< HEAD
     display: flex;
     overflow: auto;
+=======
+    margin-bottom: 60px;
+>>>>>>> f10c69e (header logo e prateleiras)
 }
 
 .productsGrid .productCardLink {

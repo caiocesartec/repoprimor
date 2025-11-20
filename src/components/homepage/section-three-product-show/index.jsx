@@ -42,7 +42,6 @@ export const SectionThreeProductShow = () => {
           </p>
 
         </div>
-        {/* <Wave direction="down" /> */}
 
 
         <div className={styles.productsGrid}>
@@ -65,6 +64,8 @@ export const SectionThreeProductShow = () => {
             </Link>
           ))}
         </div>
+        <div className={styles.barraLegal}></div>
+
 
       </div>
 
