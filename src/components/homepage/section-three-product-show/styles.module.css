@@ -46,6 +46,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem 2rem;
     place-items: center;
+    display: flex;
+    overflow: auto;
 }
 
 .productsGrid .productCardLink {
