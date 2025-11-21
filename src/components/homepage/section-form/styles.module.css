@@ -1,8 +1,10 @@
 .wrapper {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: "Neulis";
+  padding-left: 63px;
   /* background-image: url('/banners/degrade.jpg'); */
   /* background: radial-gradient(circle at 85% 10%,
       #f5711c 0%,
@@ -74,6 +76,12 @@
   .inner {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapper {
+    padding-left: 10;
+    padding-right: 10;
   }
 }
 
