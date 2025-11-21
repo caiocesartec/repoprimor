@@ -89,11 +89,13 @@
   }
   .dicasSection {
     padding-left: 0px;
+    height: 648px;
   }
 }
 
 @media (max-width: 890px) {
   .dicasSection {
     height: auto;
+    padding-bottom: 60px;
   }
 }
