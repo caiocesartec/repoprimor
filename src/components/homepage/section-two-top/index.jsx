@@ -2,27 +2,6 @@ import styles from "./styles.module.css";
 import { SectionTitle } from "@/components/common/section-title";
 
 export const SectionTwoTop = () => {
-  const cards = [
-  {
-    icon: "/produtos/primor_original.png",
-    title: "Margarina Primor 500g",
-    text: "A margarina perfeita para forno, fogão e receitas do dia a dia.",
-    slug: "primor-original",
-  },
-  {
-    icon: "/produtos/primor_balde.png",
-    title: "Margarina Primor Balde 3kg",
-    text: "Ideal para uso culinário intenso, com sabor e performance profissional.",
-    slug: "primor-balde",
-  },
-  {
-    icon: "/produtos/primor_gordura.png",
-    title: "Gordura Vegetal 500g",
-    text: "Gordura vegetal ideal para massas, frituras e usos culinários diversos.",
-    slug: "primor-gordura-vegetal",
-  },
-];
-
   return (
     <section className={styles.section_two}>
       <div className={styles.container}>

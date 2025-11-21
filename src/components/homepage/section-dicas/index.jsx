@@ -25,7 +25,7 @@ que der e vier. Confira nossas dicas.
           titulo={dica.titulo}
           descricao={dica.descricao}
           imagem={dica.imagem?.url || "/imagem-dica.png"}
-          href="/"
+          href={dica.href}
         />
       ))
     : null;

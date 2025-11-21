@@ -8,7 +8,7 @@ export const DicasCard = ({ titulo, descricao, imagem, href }) => {
   const DicasCardContent = (
     <div className={styles.card}>
       <div className={styles.imageWrapper}>
-        <Image src={imageUrl} alt={titulo} fill className={styles.image} />
+        <img src={imageUrl} alt={titulo} fill className={styles.image} />
       </div>
 
       <div className={styles.content}>
@@ -18,5 +18,5 @@ export const DicasCard = ({ titulo, descricao, imagem, href }) => {
     </div>
   );
 
-  return href ? <Link href={href}>{DicasCardContent}</Link> : DicasCardContent;
+  return href ? <Link target="_blank" rel="noopener noreferrer"  href={href}>{DicasCardContent}</Link> : DicasCardContent;
 };
