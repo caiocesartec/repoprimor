@@ -5,9 +5,10 @@ export async function getDicas() {
       dicas {
         nodes {
           title
-          acf {
-            descricao
-            linkDaReceita
+          camposDaDica {            
+            nomeDaDica
+            descricaoDaDica
+            linkDaDica
             imagem {
               node {
                 mediaItemUrl
@@ -17,20 +18,18 @@ export async function getDicas() {
         }
       }
     }
-  `;
+  `;  
 
   function mapDica(dica) {
-    const acf = dica?.acf ?? {};
-
+    const acf = dica?.camposDaDica ?? {};
+  
     return {
-      titulo: dica?.title ?? "",
-      descricao: acf?.descricao ?? "",
-      imagem: {
-        url: acf?.imagem?.node?.mediaItemUrl || "/placeholder.png",
-      },
-      href: acf?.linkDaReceita || null,
+      titulo: acf?.nomeDaDica ?? "",
+      detalhesDaDica: acf?.descricaoDaDica ?? "",
+      imagem: acf?.imagem?.node?.mediaItemUrl || "/placeholder.png",
+      href: acf?.linkDaDica || null,
     };
-  }
+  } 
 
   const response = await fetch("https://new.primor.com.br/graphql", {
     method: "POST",

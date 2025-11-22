@@ -8,11 +8,9 @@ export const SectionDicas = async ({ dicas }) => {
   const hasDicas = dicas && dicas.length > 0;
 
   const subtitleContent = hasDicas ? (
-<>
-Primor é a vizinha sem cerimônia e
-a figura familiar carinhosa que está
-sempre de braços abertos para o
-que der e vier. Confira nossas dicas.
+    <>
+      Primor é a vizinha sem cerimônia e a figura familiar carinhosa que está
+      sempre de braços abertos para o que der e vier. Confira nossas dicas.
     </>
   ) : (
     <>No momento não temos dicas cadastradas.</>
@@ -23,8 +21,8 @@ que der e vier. Confira nossas dicas.
         <DicasCard
           key={index}
           titulo={dica.titulo}
-          descricao={dica.descricao}
-          imagem={dica.imagem?.url || "/imagem-dica.png"}
+          detalhesDaDica={dica.detalhesDaDica}
+          imagem={dica.imagem || "/imagem-dica.png"}
           href={dica.href}
         />
       ))

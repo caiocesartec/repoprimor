@@ -2,14 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.css";
 
-export const DicasCard = ({ titulo, descricao, imagem, href }) => {
-  const imageUrl = imagem || "/imagem-dica.png";
+export const DicasCard = ({ titulo, detalhesDaDica, imagem, href }) => {
 
   const DicasCardContent = (
     <div className={styles.card}>
       <div className={styles.imageWrapper}>
         <Image
-          src={imageUrl}
+          src={imagem || "/imagem-dica.png"}
           alt={titulo}
           fill
           className={styles.image}
@@ -18,7 +17,7 @@ export const DicasCard = ({ titulo, descricao, imagem, href }) => {
 
       <div className={styles.content}>
         <h3 className={styles.titulo}>{titulo}</h3>
-        <p className={styles.descricao}>{descricao}</p>
+        <p className={styles.descricao}>{detalhesDaDica}</p>
       </div>
     </div>
   );
