@@ -26,7 +26,6 @@ export const SectionReceitas = async ({ receitas }) => {
         <ReceitasCard
           key={receita.nome}
           nome={receita.nome}
-          categoria={receita.categoria}
           imagem={receita.imagem?.url || "/receitas/default.png"}
           href={receita.linkReceita?.url}
         />
@@ -52,7 +51,7 @@ export const SectionReceitas = async ({ receitas }) => {
 
           
 
-          <p className={styles.subtitle}>{subtitleContent}</p>
+          <section className={styles.subtitle}>{subtitleContent}</section>
 
           {hasReceitas && (
             <div className={styles.carouselWrapper}>

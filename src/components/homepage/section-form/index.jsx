@@ -17,42 +17,42 @@ export const FormSection = () => {
     setForm({ ...form, [name]: type === "checkbox" ? checked : value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("sending");
-
-    setTimeout(() => {
-      setStatus("success");
-    }, 1200);
-  };
-
-  // AQUI SERA O FETCH PARR CADASTRO DE FORMS
-
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
   //   setStatus("sending");
+
+  //   setTimeout(() => {
+  //     setStatus("success");
+  //   }, 1200);
+  // };
+
+  //
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("sending");
   
-  //   try {
-  //     const response = await fetch("http://primor-teste.local/wp-json/primor/v1/newsletter", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(form),
-  //     });
+    try {
+      const response = await fetch("https://new.primor.com.br/wp-json/primor/v1/newsletter", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      });
   
-  //     const result = await response.json();
+      const result = await response.json();
   
-  //     if (result.success) {
-  //       setStatus("success");
-  //       setForm({ name: "", email: "", consent: false, age: false });
-  //     } else {
-  //       setStatus("error");
-  //     }
-  //   } catch (err) {
-  //     setStatus("error");
-  //   }
-  // };  
+      if (result.success) {
+        setStatus("success");
+        setForm({ name: "", email: "", consent: false, age: false });
+      } else {
+        setStatus("error");
+      }
+    } catch (err) {
+      setStatus("error");
+    }
+  };
+   
 
   return (
     <div className={styles.wrapper}>

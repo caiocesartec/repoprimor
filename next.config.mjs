@@ -7,6 +7,10 @@ const nextConfig = {
         hostname: "new.primor.com.br",
       },
       {
+        protocol: "http",
+        hostname: "primor-teste.local",
+      },
+      {
         protocol: "https",
         hostname: "www.datocms-assets.com",
       },
