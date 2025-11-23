@@ -73,6 +73,9 @@
 
 
 @media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
   .inner {
     padding-left: 20px;
     padding-right: 20px;

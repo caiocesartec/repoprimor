@@ -5,8 +5,9 @@
   overflow: hidden;
   background-color: #CE102C;
   padding-left: 63px;
-      background-image: url('/genericas/footer-bg-wave.png');
-    background-position: bottom;
+  background-position: cover;
+  background-image: url('/genericas/footer-bg-wave.png');
+  background-size: cover;
 }
 .backgroundImage {
   width: 100%;
