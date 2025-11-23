@@ -3,9 +3,9 @@ import styles from "./styles.module.css";
 import { getDicas } from "@/lib/dicas";
 import { SectionDicas } from "../section-dicas";
 
-const dicas = await getDicas();
 
-export const SectionEquipe = () => {
+export const SectionEquipe = async () => {
+  const dicas = await getDicas();
   return (
     <section className={styles.container}>
 
