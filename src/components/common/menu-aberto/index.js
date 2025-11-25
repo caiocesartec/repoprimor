@@ -55,7 +55,7 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.primor.com.br/receitas" target="_blank" onClick={() => setIsOpen(false)}>
+            <Link href="https://www.seara.com.br/marcas/primor/" target="_blank" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
