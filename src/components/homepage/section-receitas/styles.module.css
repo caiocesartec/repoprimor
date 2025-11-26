@@ -76,7 +76,7 @@
 }
 
 .receitasSwiper {
-  position: static;
+  position: static!important;
   margin-top: 1rem;
 }
 
