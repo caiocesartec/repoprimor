@@ -87,6 +87,10 @@
   justify-content: center;
 }
 
+
+.swiper-horizontal {
+    position: static!important;
+}
 @media (max-width: 1024px) {
   .receitasSection {
     padding-left: 0;
@@ -173,7 +177,7 @@
   }
 
   .receitasSwiper :global(.swiper-button-prev) {
-    top: 40%;
+    top: 45%;
     transform: translateX(-52px);
   }
 
