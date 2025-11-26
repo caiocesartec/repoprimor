@@ -119,19 +119,22 @@
   border-radius: 50%;
   background-color: #ffffff;
 
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 0, 0) !important;
 
   position: absolute;
-  top: 50%;          
+  top: 50%;
   z-index: 10;
 }
 
 .dicasSwiper :global(.swiper-button-prev::after),
 .dicasSwiper :global(.swiper-button-next::after) {
   font-size: 16px;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
 }
 
 @media (max-width: 1124px) {

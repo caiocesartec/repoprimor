@@ -107,7 +107,7 @@
   padding-bottom: 49px;
   max-width: 1200px;
   position: relative;
-  
+
 }
 
 
@@ -119,27 +119,26 @@
   border-radius: 50%;
   background-color: #ce102c;
 
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: white !important;
 
   position: absolute;
   top: 60%;
   z-index: 10;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-/* .receitasSwiper :global(.swiper-button-prev) {
-  left: 72px;
-}
 
-.receitasSwiper :global(.swiper-button-next) {
-  right: 32px;
-} */
 
 .receitasSwiper :global(.swiper-button-prev::after),
 .receitasSwiper :global(.swiper-button-next::after) {
   font-size: 16px;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
 }
 
 
