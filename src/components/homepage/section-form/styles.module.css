@@ -416,7 +416,7 @@
 
 
 .errorText {
-  color: #ff3b3b;
+  color: #ffffff !important;
   font-size: 13px;
   margin-top: 6px;
 }
