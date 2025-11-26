@@ -87,11 +87,6 @@
   justify-content: center;
 }
 
-
-.receitasSwiper :global(.swiper-horizontal) {
-    position: static!important;
-}
-
 @media (max-width: 1024px) {
   .receitasSection {
     padding-left: 0;
@@ -112,19 +107,16 @@
   padding-bottom: 49px;
   max-width: 1200px;
   position: relative;
-
 }
-
-
-
-.receitasSwiper :global(.swiper-button-prev),
-.receitasSwiper :global(.swiper-button-next) {
+.carouselWrapper :global(.swiper-button-prev),
+.carouselWrapper :global(.swiper-button-next) {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: #ce102c;
 
   display: flex !important;
+
   align-items: center;
   justify-content: center;
   color: white !important;
@@ -132,29 +124,21 @@
   position: absolute;
   top: 60%;
   z-index: 10;
-  opacity: 1 !important;
-  visibility: visible !important;
 }
-
-
-
-.receitasSwiper :global(.swiper-button-prev::after),
-.receitasSwiper :global(.swiper-button-next::after) {
+.carouselWrapper :global(.swiper-button-prev::after),
+.carouselWrapper :global(.swiper-button-next::after) {
   font-size: 16px;
-  opacity: 1 !important;
-  visibility: visible !important;
-  display: block !important;
 }
 
 
 
 
-.receitasSwiper :global(.swiper-button-prev) {
+.carouselWrapper :global(.swiper-button-prev) {
   top: 40%;
   transform: translateX(-70px);
 }
 
-.receitasSwiper :global(.swiper-button-next) {
+.carouselWrapper :global(.swiper-button-next) {
   top: 40%;
   transform: translateX(70px);
 }
@@ -163,27 +147,27 @@
   .overlay {
     padding: 4rem 3rem;
   }
-
-  .receitasSwiper :global(.swiper-button-prev),
-  .receitasSwiper :global(.swiper-button-next) {
+  
+  .carouselWrapper :global(.swiper-button-prev),
+  .carouselWrapper :global(.swiper-button-next) {
     width: 36px;
     height: 36px;
     top: auto;
     bottom: 70px;
   }
 
-  .receitasSwiper :global(.swiper-button-prev::after),
-  .receitasSwiper :global(.swiper-button-next::after) {
+  .carouselWrapper :global(.swiper-button-prev::after),
+  .carouselWrapper :global(.swiper-button-next::after) {
     font-size: 13px;
   }
 
-  .receitasSwiper :global(.swiper-button-prev) {
-    top: 45%;
+  .carouselWrapper :global(.swiper-button-prev) {
+  top: 40%;
     transform: translateX(-52px);
   }
 
-  .receitasSwiper :global(.swiper-button-next) {
-    top: 40%;
+  .carouselWrapper :global(.swiper-button-next) {
+  top: 40%;
     transform: translateX(52px);
   }
   .carouselWrapper {
