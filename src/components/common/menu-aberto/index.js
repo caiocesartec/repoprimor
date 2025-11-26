@@ -55,7 +55,7 @@ export const OpenMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.seara.com.br/minha-receita/" target="_blank" onClick={() => setIsOpen(false)}>
+            <Link href="https://www.seara.com.br/marcas/primor" target="_blank" onClick={() => setIsOpen(false)}>
               Receitas
             </Link>
           </li>
@@ -67,35 +67,40 @@ export const OpenMenu = () => {
         </ul>
 
         <div className={styles.socials}>
-          {/* <Link href="/#">
+             
+          <Link target="_blank" href="https://www.facebook.com/PrimorAlimentos/">
             <Image
-              src="/icones/iLinkedin.png"
-              alt="LinkedIn"
-              width={48}
-              height={48}
-              quality={100}
-            />
-          </Link> */}
-
-          <Link target="_blank" href="https://www.instagram.com/primor/">
-            <Image
-              src="/icones/iInstagramm.png"
-              alt="Instagram"
-              width={38}
-              height={38}
+              src="/logos/ico-face.png"
+              alt="Icone Facebook"
+              width={17}
+              height={30}
+              style={{marginRight: 6 }}
               quality={100}
             />
           </Link>
-
-          {/* <Link href="/#">
+        
+        
+          <Link target="_blank" href="https://www.instagram.com/primor/">
             <Image
-              src="/icones/iWhats.png"
-              alt="WhatsApp"
+              src="/logos/ico-insta.png"
+              alt="Icone Instagram"
               width={30}
               height={30}
               quality={100}
             />
-          </Link> */}
+          </Link>
+        
+        
+          <Link target="_blank" href="https://www.youtube.com/@PrimorAlimentos">
+            <Image
+              src="/logos/ico-you.png"
+              alt="Icone Youtube"
+              width={33}
+              height={31}
+              quality={100}
+            />
+          </Link>
+                
         </div>
       </div>
     </>

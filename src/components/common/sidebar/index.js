@@ -13,35 +13,39 @@ export default function Sidebar() {
       <div className={styles.spacer} />
 
       <div className={styles.socialIcons}>
-          {/* <Link href="/#">
-        <Image
-          src="/icones/iLinkedin.png"
-          alt="LinkedIn"
-          width={48}
-          height={48}
-          quality={100}
-        />
-      </Link> */}
-
-          <Link target="_blank" href="https://www.instagram.com/primor/">
-        <Image
-          src="/icones/iInstagramm.png"
-          alt="Instagram"
-          width={38}
-          height={38}
-          quality={100}
-        />
-      </Link>
-{/* 
-          <Link href="/#">
-        <Image
-          src="/icones/iWhats.png"
-          alt="WhatsApp"
-          width={30}
-          height={30}
-          quality={100}
-        />
-      </Link> */}
+        <Link target="_blank" href="https://www.facebook.com/PrimorAlimentos/">
+          <Image
+            src="/logos/ico-face.png"
+            alt="Icone Facebook"
+            width={20}
+            height={33}
+            style={{marginRight: 0}}
+            quality={100}
+          />
+        </Link>
+        
+        <Link target="_blank" href="https://www.youtube.com/@PrimorAlimentos">
+          <Image
+            src="/logos/ico-you.png"
+            alt="Icone Youtube"
+            width={38}
+            height={34}
+            quality={100}
+          />
+        </Link>
+    
+        <Link target="_blank" href="https://www.instagram.com/primor/">
+          <Image
+            src="/logos/ico-insta.png"
+            alt="Icone Instagram"
+            width={38}
+            height={38}
+            quality={100}
+          />
+        </Link>
+      
+    
+   
     </div>
     </aside>
   );
