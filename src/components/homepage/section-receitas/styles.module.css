@@ -88,9 +88,10 @@
 }
 
 
-.swiper-horizontal {
+.receitasSwiper :global(.swiper-horizontal) {
     position: static!important;
 }
+
 @media (max-width: 1024px) {
   .receitasSection {
     padding-left: 0;
