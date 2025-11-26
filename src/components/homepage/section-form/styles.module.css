@@ -4,6 +4,8 @@
   padding: 1.5rem;
   font-family: "Neulis";
   background: #CE102C;
+  border-top: solid 6px #ffc600;
+  padding-top: 60px!important;
 }
 
 .newsletterBox {

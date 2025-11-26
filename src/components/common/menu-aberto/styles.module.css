@@ -50,6 +50,10 @@
   line-height: 2.6;
   font-size: 48px;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  height: 59%;
+  justify-content: center;
 }
 
 .navList li a {
@@ -68,7 +72,6 @@
   display: flex;
   gap: 25px;
   margin-top: auto;
-  padding-bottom: 52px;
   align-items: center;
 }
 
