@@ -26,7 +26,7 @@
   z-index: 1;
   width: 100%;
   background: hsla(213, 94%, 26%, 0.3);
-  padding: 4rem 2rem;
+  padding: 4rem 5rem;
   min-height: 61vh;
   box-sizing: border-box;
 }
@@ -104,7 +104,9 @@
 }
 
 .carouselWrapper {
-  padding-bottom: 80px;
+  padding-bottom: 49px;
+  max-width: 1200px;
+  position: relative;
 }
 
 
@@ -139,8 +141,20 @@
   font-size: 16px;
 }
 
+.receitasSwiper :global(.swiper-button-prev) {
+  top: 40%;
+  transform: translateX(-70px);
+}
+
+.receitasSwiper :global(.swiper-button-next) {
+  top: 40%;
+  transform: translateX(70px);
+}
 
 @media (max-width: 1124px) {
+  .overlay {
+    padding: 4rem 3rem;
+  }
 
   .receitasSwiper :global(.swiper-button-prev),
   .receitasSwiper :global(.swiper-button-next) {
@@ -156,13 +170,15 @@
   }
 
   .receitasSwiper :global(.swiper-button-prev) {
-    left: 50%;
+    top: 40%;
     transform: translateX(-52px);
   }
 
   .receitasSwiper :global(.swiper-button-next) {
-    right: auto;
-    left: 50%;
-    transform: translateX(16px);
+    top: 40%;
+    transform: translateX(52px);
+  }
+  .carouselWrapper {
+    padding-bottom: 20px;
   }
 }
