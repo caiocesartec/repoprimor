@@ -1,4 +1,6 @@
-/* FinalSix */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 @font-face {
   font-family: "Neulis";
   src: url("/fonts/NEULIS/NEULIS/NeulisAlt-Regular.otf") format("opentype");
@@ -27,7 +29,7 @@ span {
 }
 
 p {
-  color: black!important;
+  color: black
 }
 
 .glow {
