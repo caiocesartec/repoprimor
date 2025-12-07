@@ -7,7 +7,7 @@ const SOCIALS = [
     href: "https://www.instagram.com/primor/",
     bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Instagram.webp",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/Instagram.webp",
-    alt: "Instagram",
+    alt: "Doriana Instagram",
   },
   {
     href: "https://www.facebook.com/PrimorAlimentos/",
@@ -41,7 +41,7 @@ const renderCard = (item, index) => (
       <div className={styles.iconWrapper}>
         <img src={item.icon} alt={item.alt} className={styles.icon} />
         <img
-          src="/logos/seara-logo-mono-branco.webp"
+          src="/logos/Doriana-Logo-Blur-RGB-210913.png"
           alt="Seara"
           className={styles.logo}
         />
@@ -56,7 +56,7 @@ export const SectionRir = () => {
   return (
     <section className={styles.receitasSection}>
       <Image
-        src="/banners/rir-seara-banner.webp"
+        src="/banners/Banner_Manteiga.jpg"
         alt="Fundo"
         fill
         className={styles.backgroundImage}
@@ -78,12 +78,20 @@ export const SectionRir = () => {
 
           <CustomSwiper
             slides={slides}
-            mobileOnly={true}
-            loop
+            loop={true}
             navigation
             pagination={false}
             slidesPerView={1}
             spaceBetween={22}
+            watchOverflow={true}
+            breakpoints={{
+              700: {
+                slidesPerView: 2,
+              },
+              940: {
+                slidesPerView: 3,
+              },
+            }}
             className={styles.rirSwiper}
             fallbackClass={styles.contentMobile}
           />
