@@ -1,9 +1,10 @@
-.receitasSection {
+.rirSection {
   position: relative;
   width: 100%;
   min-height: 30vh;
   overflow: hidden;
   padding-left: 61px;
+  border-top: 6px solid #facd0a;
 }
 
 .backgroundImage {
@@ -248,7 +249,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: #006efa;
+  background-color: #ce102c;
 
   display: flex;
   align-items: center;
@@ -342,7 +343,7 @@
     font-size: 16px;
   }
 
-  .receitasSection {
+  .rirSection {
     padding-left: 0;
   }
 

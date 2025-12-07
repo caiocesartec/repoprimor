@@ -5,25 +5,25 @@ import { CustomSwiper } from "@/components/common/swiper";
 const SOCIALS = [
   {
     href: "https://www.instagram.com/primor/",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Instagram.webp",
+    bg: "/genericas/rede_1.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/Instagram.webp",
     alt: "Doriana Instagram",
   },
   {
     href: "https://www.facebook.com/PrimorAlimentos/",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Facebook.webp",
+    bg: "/genericas/rede_2.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/Facebook.webp",
     alt: "Facebook",
   },
   {
     href: "https://www.tiktok.com/@primor.oficial",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-TikTok.webp",
+    bg: "/genericas/rede_3.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/09/TikTok.webp",
     alt: "TikTok",
   },
   {
     href: "https://www.youtube.com/@PrimorAlimentos",
-    bg: "https://www.seara.com.br/wp-content/uploads/2024/09/Rock-in-Rio-Pinterest.webp",
+    bg: "/genericas/rede_4.jpg",
     icon: "https://www.seara.com.br/wp-content/uploads/2024/08/pinterest.webp",
     alt: "Youtube",
   },
@@ -41,7 +41,7 @@ const renderCard = (item, index) => (
       <div className={styles.iconWrapper}>
         <img src={item.icon} alt={item.alt} className={styles.icon} />
         <img
-          src="/logos/Doriana-Logo-Blur-RGB-210913.png"
+          src="/logos/logo.png"
           alt="Seara"
           className={styles.logo}
         />
@@ -54,9 +54,9 @@ export const SectionRir = () => {
   const slides = SOCIALS.map((item, index) => renderCard(item, index));
 
   return (
-    <section className={styles.receitasSection}>
+    <section className={styles.rirSection}>
       <Image
-        src="/banners/Banner_Manteiga.jpg"
+        src="/banners/Banner_Manteigaa.jpg"
         alt="Fundo"
         fill
         className={styles.backgroundImage}

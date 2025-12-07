@@ -4,6 +4,7 @@
   overflow: hidden;
   padding-left: 61px;
   height: auto;
+  border-top: 6px solid #ffc600;
 }
 
 .backgroundImage {
