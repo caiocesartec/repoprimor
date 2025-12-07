@@ -56,7 +56,7 @@ export const SectionRir = () => {
   return (
     <section className={styles.rirSection}>
       <Image
-        src="/banners/Banner_Manteigaa.jpg"
+        src="/banners/Banner_Manteigaaa.jpg"
         alt="Fundo"
         fill
         className={styles.backgroundImage}
