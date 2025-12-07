@@ -24,7 +24,7 @@ const SOCIALS = [
   {
     href: "https://www.youtube.com/@PrimorAlimentos",
     bg: "/genericas/rede_4.jpg",
-    icon: "https://www.seara.com.br/wp-content/uploads/2024/08/pinterest.webp",
+    icon: "/icones/youtubee.png",
     alt: "Youtube",
   },
 ];
