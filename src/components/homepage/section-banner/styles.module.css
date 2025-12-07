@@ -165,21 +165,26 @@
 }
 
 @media (max-width: 768px) {
+
   .section_one,
   .swiper,
   .banner {
     height: 570px;
   }
+
   .bgImage {
     object-fit: cover;
     object-position: center;
   }
+
   .title {
     font-size: 28px;
   }
+
   .subtitle {
     font-size: 14px;
   }
+
   .button {
     font-size: 0.9rem;
     padding: 0.6rem 1.2rem;
@@ -209,7 +214,12 @@
   color: white;
 }
 
-.bannerSwiper :global(.swiper-button-prev::after),
+
+.bannerSwiper :global(.swiper-button-prev::after) {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 .bannerSwiper :global(.swiper-button-next::after) {
   font-size: 22px;
   font-weight: 600;
@@ -235,7 +245,9 @@
     height: 40px;
   }
 
-  .bannerSwiper :global(.swiper-button-prev::after),
+  .bannerSwiper :global(.swiper-button-prev::after) {
+    font-size: 16px;
+  }
   .bannerSwiper :global(.swiper-button-next::after) {
     font-size: 16px;
   }
@@ -243,13 +255,16 @@
 
 
 @media (max-width: 480px) {
+
   .bannerSwiper :global(.swiper-button-prev),
   .bannerSwiper :global(.swiper-button-next) {
     width: 36px;
     height: 36px;
   }
 
-  .bannerSwiper :global(.swiper-button-prev::after),
+  .bannerSwiper :global(.swiper-button-prev::after) {
+    font-size: 14px;
+  }
   .bannerSwiper :global(.swiper-button-next::after) {
     font-size: 14px;
   }

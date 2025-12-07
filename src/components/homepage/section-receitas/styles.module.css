@@ -1,10 +1,9 @@
 .receitasSection {
   position: relative;
   width: 100%;
-  min-height: 61vh;
   overflow: hidden;
-  width: 100%;
   padding-left: 61px;
+  height: auto;
 }
 
 .backgroundImage {
@@ -17,8 +16,22 @@
   z-index: -1;
 }
 
+.button {
+  margin-top: 2.4rem;
+  background-color: #facd0a;
+  color: #0f1425;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+  font-family: "Neulis";
+  padding: 0.8rem 1.5rem;
+}
 .paragrafoTitulo {
   color: white!important;
+  font-size: 19px;
 }
 
 .overlay {
@@ -26,9 +39,8 @@
   z-index: 1;
   width: 100%;
   background: hsla(213, 94%, 26%, 0.3);
-  padding: 4rem 5rem;
-  min-height: 61vh;
   box-sizing: border-box;
+  height: auto;
 }
 
 .content {
@@ -36,6 +48,9 @@
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  padding-bottom: 50px;
+  padding-top: 30px;
+
 }
 
 .tag {
@@ -88,6 +103,10 @@
 }
 
 @media (max-width: 1024px) {
+  .tag {
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
   .receitasSection {
     padding-left: 0;
   }
@@ -100,6 +119,8 @@
   .paragrafoTitulo {
     margin-top: 20px;
     font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -144,9 +165,6 @@
 }
 
 @media (max-width: 1124px) {
-  .overlay {
-    padding: 4rem 3rem;
-  }
   
   .carouselWrapper :global(.swiper-button-prev),
   .carouselWrapper :global(.swiper-button-next) {
